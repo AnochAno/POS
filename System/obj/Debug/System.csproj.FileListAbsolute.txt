@@ -9,3 +9,14 @@ C:\Users\Anojan\source\repos\System\obj\Debug\System.csproj.GenerateResource.cac
 C:\Users\Anojan\source\repos\System\obj\Debug\System.csproj.CoreCompileInputs.cache
 C:\Users\Anojan\source\repos\System\obj\Debug\System.exe
 C:\Users\Anojan\source\repos\System\obj\Debug\System.pdb
+C:\Users\Anojan\Desktop\Git\POS\System\bin\Debug\System.exe.config
+C:\Users\Anojan\Desktop\Git\POS\System\bin\Debug\System.exe
+C:\Users\Anojan\Desktop\Git\POS\System\bin\Debug\System.pdb
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.csproj.AssemblyReference.cache
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.Form1.resources
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.Properties.Resources.resources
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.csproj.GenerateResource.cache
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.csproj.CoreCompileInputs.cache
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.exe
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.pdb
