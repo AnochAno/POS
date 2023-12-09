@@ -207,7 +207,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(205, 58);
+            this.label4.Location = new System.Drawing.Point(247, 58);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 32);
             this.label4.TabIndex = 1;
@@ -218,9 +218,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(13, 58);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(186, 32);
+            this.label5.Size = new System.Drawing.Size(228, 32);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Active User :";
+            this.label5.Text = "Active Product :";
             // 
             // panel8
             // 
@@ -235,7 +235,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(205, 58);
+            this.label6.Location = new System.Drawing.Point(140, 58);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 32);
             this.label6.TabIndex = 1;
@@ -246,9 +246,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(13, 58);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(186, 32);
+            this.label7.Size = new System.Drawing.Size(121, 32);
             this.label7.TabIndex = 0;
-            this.label7.Text = "Active User :";
+            this.label7.Text = "Income:";
             // 
             // panel9
             // 
@@ -274,9 +274,10 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(13, 58);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(186, 32);
+            this.label9.Size = new System.Drawing.Size(209, 32);
             this.label9.TabIndex = 0;
-            this.label9.Text = "Active User :";
+            this.label9.Text = "Active Admin :";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // board
             // 
