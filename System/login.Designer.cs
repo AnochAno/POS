@@ -56,6 +56,7 @@
             username.Size = new System.Drawing.Size(344, 46);
             username.TabIndex = 2;
             username.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            username.Enter += new System.EventHandler(this.username_Enter);
             // 
             // textBox2
             // 

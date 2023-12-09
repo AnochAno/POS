@@ -24,6 +24,19 @@ namespace System
 
         }
 
-       
+        private void panel2_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void panel2_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void username_Enter(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
