@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace System
+namespace System.Adminboard
 {
-    public partial class login_page : Form
+    public partial class board : Form
     {
-        public login_page()
+        public board()
         {
             InitializeComponent();
+        }
+
+        private void board_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
