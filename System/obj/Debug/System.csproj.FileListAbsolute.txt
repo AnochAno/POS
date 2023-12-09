@@ -20,3 +20,4 @@ C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.csproj.GenerateResource.
 C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.csproj.CoreCompileInputs.cache
 C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.exe
 C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.pdb
+C:\Users\Anojan\Desktop\Git\POS\System\obj\Debug\System.login_page.resources
