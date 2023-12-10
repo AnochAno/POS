@@ -46,24 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Adminboard\board.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Adminboard\board.Designer.cs">
+      <DependentUpon>board.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adminboard\aadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminboard\aadmin.Designer.cs">
+      <DependentUpon>aadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adminboard\product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminboard\product.Designer.cs">
+      <DependentUpon>product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adminboard\user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminboard\user.Designer.cs">
+      <DependentUpon>user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="login.cs">
+    <Compile Include="UI\login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login.Designer.cs">
+    <Compile Include="UI\login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Adminboard\board.resx">
+      <DependentUpon>board.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminboard\aadmin.resx">
+      <DependentUpon>aadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminboard\product.resx">
+      <DependentUpon>product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminboard\user.resx">
+      <DependentUpon>user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="login.resx">
+    <EmbeddedResource Include="UI\login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -87,6 +123,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RF ID\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
