@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace System.Adminboard
 {
-    public partial class Form1 : Form
+    public partial class product : Form
     {
-        public Form1()
+        public product()
         {
             InitializeComponent();
         }
