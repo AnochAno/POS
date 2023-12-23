@@ -40,17 +40,34 @@ namespace System.Adminboard
                 {
                     Username = name.Text;
                     Password = txtpass .Text;
+
+                    aadmin ad = new aadmin();
+                    ad.Show();
+                    this.Hide();
+
+                }
+                else
+                {
+                    MessageBox.Show("UserName and Password Not Matched");
+                    clear();
                 }
 
 
             }catch (Exception ex)
             {
-                MessageBox.Show(ex.Message + "Error in Your Database connection");
-
+                MessageBox.Show(ex.Message + "Error in Your Database connection" , "Error " , MessageBoxButtons.OK);
+                clear();
             }finally { 
             conn.Close();
             }
 
+        }
+
+        private  void clear()
+        {
+            txtpass.Clear();
+            name.Clear();
+            name.Focus();
         }
 
         private void txtname_TextChanged(object sender, EventArgs e)
@@ -61,6 +78,11 @@ namespace System.Adminboard
         private void login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            clear();
         }
     }
 }

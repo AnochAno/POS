@@ -110,6 +110,7 @@ namespace System.Adminboard
             this.button2.TabIndex = 7;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -199,7 +200,8 @@ namespace System.Adminboard
         private Windows.Forms.Label Password;
         private Windows.Forms.Label label1;
         private Windows.Forms.Panel panel1;
-        public Windows.Forms.TextBox name;
+        private Windows.Forms.TextBox name;
         private Windows.Forms.TextBox txtpass;
+
     }
 }
