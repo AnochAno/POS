@@ -1,4 +1,8 @@
-﻿namespace System.Adminboard
+﻿using MongoDB.Driver;
+
+
+namespace System.Adminboard
+   
 {
     partial class login
     {
@@ -28,9 +32,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TextBox textBox2;
+            System.Windows.Forms.TextBox txtpass;
+            System.Windows.Forms.TextBox name;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
-            System.Windows.Forms.TextBox username;
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -39,21 +43,43 @@
             this.Password = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            textBox2 = new System.Windows.Forms.TextBox();
-            username = new System.Windows.Forms.TextBox();
+            txtpass = new System.Windows.Forms.TextBox();
+            name = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
+            // txtpass
+            // 
+            txtpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            txtpass.Location = new System.Drawing.Point(328, 247);
+            txtpass.Margin = new System.Windows.Forms.Padding(4);
+            txtpass.Multiline = true;
+            txtpass.Name = "txtpass";
+            txtpass.Size = new System.Drawing.Size(344, 46);
+            txtpass.TabIndex = 9;
+            // 
+            // name
+            // 
+            name.AcceptsTab = true;
+            name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            name.Location = new System.Drawing.Point(328, 162);
+            name.Margin = new System.Windows.Forms.Padding(4);
+            name.Multiline = true;
+            name.Name = "name";
+            name.Size = new System.Drawing.Size(344, 46);
+            name.TabIndex = 2;
+            name.TextChanged += new System.EventHandler(this.txtname_TextChanged);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel2.Controls.Add(textBox2);
+            this.panel2.Controls.Add(txtpass);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.checkBox1);
-            this.panel2.Controls.Add(username);
+            this.panel2.Controls.Add(name);
             this.panel2.Controls.Add(this.Password);
             this.panel2.Controls.Add(this.label1);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -62,16 +88,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(893, 407);
             this.panel2.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            textBox2.Location = new System.Drawing.Point(328, 247);
-            textBox2.Margin = new System.Windows.Forms.Padding(4);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(344, 46);
-            textBox2.TabIndex = 9;
             // 
             // label2
             // 
@@ -106,6 +122,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -118,17 +135,6 @@
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Show Password";
             this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // username
-            // 
-            username.AcceptsTab = true;
-            username.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            username.Location = new System.Drawing.Point(328, 162);
-            username.Margin = new System.Windows.Forms.Padding(4);
-            username.Multiline = true;
-            username.Name = "username";
-            username.Size = new System.Drawing.Size(344, 46);
-            username.TabIndex = 2;
             // 
             // Password
             // 
@@ -175,6 +181,7 @@
             this.MinimizeBox = false;
             this.Name = "login";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.login_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -192,5 +199,7 @@
         private Windows.Forms.Label Password;
         private Windows.Forms.Label label1;
         private Windows.Forms.Panel panel1;
+        public Windows.Forms.TextBox name;
+        private Windows.Forms.TextBox txtpass;
     }
 }

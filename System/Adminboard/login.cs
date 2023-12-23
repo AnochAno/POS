@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Adminboard;
+
 
 namespace System.Adminboard
 {
@@ -15,6 +18,49 @@ namespace System.Adminboard
         public login()
         {
             InitializeComponent();
+        }
+
+        SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-MM7BIH0F;Initial Catalog=System;Integrated Security=True");
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String Username, Password;
+
+            Username = name.Text;
+            Password = txtpass .Text;
+
+            try
+            {
+                String Save = "SELECT * FROM Admin_Registration WHERE UserName = '" +name.Text+ "' AND Password = '" +txtpass.Text+ "' ";
+                SqlDataAdapter sda = new SqlDataAdapter(Save, conn);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+
+                if(dt.Rows.Count > 0)
+                {
+                    Username = name.Text;
+                    Password = txtpass .Text;
+                }
+
+
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + "Error in Your Database connection");
+
+            }finally { 
+            conn.Close();
+            }
+
+        }
+
+        private void txtname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
