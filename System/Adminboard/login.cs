@@ -18,6 +18,7 @@ namespace System.Adminboard
         public login()
         {
             InitializeComponent();
+            //pass.UseSystemPasswordChar = true;
         }
 
         SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-MM7BIH0F;Initial Catalog=System;Integrated Security=True");
@@ -27,11 +28,11 @@ namespace System.Adminboard
             String Username, Password;
 
             Username = name.Text;
-            Password = txtpass .Text;
+            Password = pass .Text;
 
             try
             {
-                String Save = "SELECT * FROM Admin_Registration WHERE UserName = '" +name.Text+ "' AND Password = '" +txtpass.Text+ "' ";
+                String Save = "SELECT * FROM Admin_Registration WHERE UserName = '" +name.Text+ "' AND Password = '" +pass.Text+ "' ";
                 SqlDataAdapter sda = new SqlDataAdapter(Save, conn);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
@@ -39,7 +40,7 @@ namespace System.Adminboard
                 if(dt.Rows.Count > 0)
                 {
                     Username = name.Text;
-                    Password = txtpass .Text;
+                    Password = pass .Text;
 
                     aadmin ad = new aadmin();
                     ad.Show();
@@ -65,7 +66,7 @@ namespace System.Adminboard
 
         private  void clear()
         {
-            txtpass.Clear();
+            pass.Clear();
             name.Clear();
             name.Focus();
         }
@@ -83,6 +84,11 @@ namespace System.Adminboard
         private void button2_Click(object sender, EventArgs e)
         {
             clear();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            //pass.UseSystemPasswordChar = !checkBox1.Checked;
         }
     }
 }

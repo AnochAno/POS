@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TextBox username;
-            System.Windows.Forms.TextBox textBox2;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login_page));
+            this.username = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,34 +39,33 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.Password = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            username = new System.Windows.Forms.TextBox();
-            textBox2 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // username
             // 
-            username.AcceptsTab = true;
-            username.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            username.Location = new System.Drawing.Point(328, 162);
-            username.Margin = new System.Windows.Forms.Padding(4);
-            username.Multiline = true;
-            username.Name = "username";
-            username.Size = new System.Drawing.Size(344, 46);
-            username.TabIndex = 2;
-            username.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            username.Enter += new System.EventHandler(this.username_Enter);
+            this.username.AcceptsTab = true;
+            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username.Location = new System.Drawing.Point(328, 162);
+            this.username.Margin = new System.Windows.Forms.Padding(4);
+            this.username.Multiline = true;
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(344, 46);
+            this.username.TabIndex = 2;
+            this.username.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.username.Enter += new System.EventHandler(this.username_Enter);
             // 
             // textBox2
             // 
-            textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            textBox2.Location = new System.Drawing.Point(328, 247);
-            textBox2.Margin = new System.Windows.Forms.Padding(4);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(344, 46);
-            textBox2.TabIndex = 9;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(328, 247);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(344, 46);
+            this.textBox2.TabIndex = 9;
+            this.textBox2.UseSystemPasswordChar = true;
             // 
             // panel1
             // 
@@ -81,12 +80,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel2.Controls.Add(textBox2);
+            this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.checkBox1);
-            this.panel2.Controls.Add(username);
+            this.panel2.Controls.Add(this.username);
             this.panel2.Controls.Add(this.Password);
             this.panel2.Controls.Add(this.label1);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -199,5 +198,7 @@
         private Windows.Forms.Button button1;
         private Windows.Forms.CheckBox checkBox1;
         private Windows.Forms.Label label2;
+        private Windows.Forms.TextBox username;
+        private Windows.Forms.TextBox textBox2;
     }
 }
