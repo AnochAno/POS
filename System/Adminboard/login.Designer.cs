@@ -1,5 +1,10 @@
-﻿namespace System.Adminboard
+﻿using MongoDB.Driver;
+using System.Diagnostics;
+
+namespace System.Adminboard
+   
 {
+    
     partial class login
     {
         /// <summary>
@@ -28,10 +33,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TextBox textBox2;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
-            System.Windows.Forms.TextBox username;
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pass = new System.Windows.Forms.TextBox();
+            this.name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,8 +44,6 @@
             this.Password = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            textBox2 = new System.Windows.Forms.TextBox();
-            username = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -48,12 +51,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel2.Controls.Add(textBox2);
+            this.panel2.Controls.Add(this.pass);
+            this.panel2.Controls.Add(this.name);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.checkBox1);
-            this.panel2.Controls.Add(username);
             this.panel2.Controls.Add(this.Password);
             this.panel2.Controls.Add(this.label1);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -63,15 +66,22 @@
             this.panel2.Size = new System.Drawing.Size(893, 407);
             this.panel2.TabIndex = 0;
             // 
-            // textBox2
+            // pass
             // 
-            textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            textBox2.Location = new System.Drawing.Point(328, 247);
-            textBox2.Margin = new System.Windows.Forms.Padding(4);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(344, 46);
-            textBox2.TabIndex = 9;
+            this.pass.Location = new System.Drawing.Point(375, 247);
+            this.pass.Multiline = true;
+            this.pass.Name = "pass";
+            this.pass.Size = new System.Drawing.Size(321, 48);
+            this.pass.TabIndex = 10;
+            this.pass.UseSystemPasswordChar = true;
+            // 
+            // name
+            // 
+            this.name.Location = new System.Drawing.Point(375, 162);
+            this.name.Multiline = true;
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(321, 48);
+            this.name.TabIndex = 9;
             // 
             // label2
             // 
@@ -94,6 +104,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -106,6 +117,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -118,17 +130,7 @@
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Show Password";
             this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // username
-            // 
-            username.AcceptsTab = true;
-            username.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            username.Location = new System.Drawing.Point(328, 162);
-            username.Margin = new System.Windows.Forms.Padding(4);
-            username.Multiline = true;
-            username.Name = "username";
-            username.Size = new System.Drawing.Size(344, 46);
-            username.TabIndex = 2;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // Password
             // 
@@ -175,6 +177,7 @@
             this.MinimizeBox = false;
             this.Name = "login";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.login_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -192,5 +195,7 @@
         private Windows.Forms.Label Password;
         private Windows.Forms.Label label1;
         private Windows.Forms.Panel panel1;
+        private Windows.Forms.TextBox pass;
+        private Windows.Forms.TextBox name;
     }
 }

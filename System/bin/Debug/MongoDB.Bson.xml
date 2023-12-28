@@ -68,7 +68,11 @@
             A static class containing BSON extension methods.
             </summary>
         </member>
+<<<<<<< HEAD
         <member name="M:MongoDB.Bson.BsonExtensionMethods.ToBson``1(``0,MongoDB.Bson.Serialization.IBsonSerializer{``0},MongoDB.Bson.IO.BsonBinaryWriterSettings,System.Action{MongoDB.Bson.Serialization.BsonSerializationContext.Builder},MongoDB.Bson.Serialization.BsonSerializationArgs)">
+=======
+        <member name="M:MongoDB.Bson.BsonExtensionMethods.ToBson``1(``0,MongoDB.Bson.Serialization.IBsonSerializer{``0},MongoDB.Bson.IO.BsonBinaryWriterSettings,System.Action{MongoDB.Bson.Serialization.BsonSerializationContext.Builder},MongoDB.Bson.Serialization.BsonSerializationArgs,System.Int32)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Serializes an object to a BSON byte array.
             </summary>
@@ -78,9 +82,16 @@
             <param name="writerSettings">The writer settings.</param>
             <param name="configurator">The serialization context configurator.</param>
             <param name="args">The serialization args.</param>
+<<<<<<< HEAD
             <returns>A BSON byte array.</returns>
         </member>
         <member name="M:MongoDB.Bson.BsonExtensionMethods.ToBson(System.Object,System.Type,MongoDB.Bson.IO.BsonBinaryWriterSettings,MongoDB.Bson.Serialization.IBsonSerializer,System.Action{MongoDB.Bson.Serialization.BsonSerializationContext.Builder},MongoDB.Bson.Serialization.BsonSerializationArgs)">
+=======
+            <param name="estimatedBsonSize">The estimated size of the serialized object</param>
+            <returns>A BSON byte array.</returns>
+        </member>
+        <member name="M:MongoDB.Bson.BsonExtensionMethods.ToBson(System.Object,System.Type,MongoDB.Bson.IO.BsonBinaryWriterSettings,MongoDB.Bson.Serialization.IBsonSerializer,System.Action{MongoDB.Bson.Serialization.BsonSerializationContext.Builder},MongoDB.Bson.Serialization.BsonSerializationArgs,System.Int32)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Serializes an object to a BSON byte array.
             </summary>
@@ -90,6 +101,10 @@
             <param name="serializer">The serializer.</param>
             <param name="configurator">The serialization context configurator.</param>
             <param name="args">The serialization args.</param>
+<<<<<<< HEAD
+=======
+            <param name="estimatedBsonSize">The estimated size of the serialized object.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <returns>A BSON byte array.</returns>
             <exception cref="T:System.ArgumentNullException">nominalType</exception>
             <exception cref="T:System.ArgumentException">serializer</exception>
@@ -6169,6 +6184,14 @@
             Column data.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="F:MongoDB.Bson.BsonBinarySubType.Sensitive">
+            <summary>
+            Sensitive data.
+            </summary>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="F:MongoDB.Bson.BsonBinarySubType.UserDefined">
             <summary>
             User defined binary data.
@@ -14359,6 +14382,18 @@
             Represents the information needed to serialize a member.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="M:MongoDB.Bson.Serialization.BsonSerializationInfo.CreateWithPath(System.Collections.Generic.IEnumerable{System.String},MongoDB.Bson.Serialization.IBsonSerializer,System.Type)">
+            <summary>
+            Creates a new instance of the BsonSerializationinfo class with an element path instead of an element name.
+            </summary>
+            <param name="elementPath">The element path.</param>
+            <param name="serializer">The serializer.</param>
+            <param name="nominalType">The nominal type.</param>
+            <returns>A BsonSerializationInfo.</returns>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Bson.Serialization.BsonSerializationInfo.#ctor(System.String,MongoDB.Bson.Serialization.IBsonSerializer,System.Type)">
             <summary>
             Initializes a new instance of the BsonSerializationInfo class.
@@ -14369,7 +14404,16 @@
         </member>
         <member name="P:MongoDB.Bson.Serialization.BsonSerializationInfo.ElementName">
             <summary>
+<<<<<<< HEAD
             Gets or sets the dotted element name.
+=======
+            Gets the element name.
+            </summary>
+        </member>
+        <member name="P:MongoDB.Bson.Serialization.BsonSerializationInfo.ElementPath">
+            <summary>
+            Gets element path.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
         </member>
         <member name="P:MongoDB.Bson.Serialization.BsonSerializationInfo.Serializer">
@@ -18318,6 +18362,14 @@
             Represents a serializer for DateTimes.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="P:MongoDB.Bson.Serialization.Serializers.DateTimeSerializer.Instance">
+            <summary>
+            Gets the default DateTimeSerializer.
+            </summary>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Bson.Serialization.Serializers.DateTimeSerializer.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:MongoDB.Bson.Serialization.Serializers.DateTimeSerializer"/> class.
@@ -18891,6 +18943,19 @@
             <param name="accumulator">The accumulator to finalize</param>
             <returns>The instance.</returns>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="T:MongoDB.Bson.Serialization.Serializers.IDiscriminatedInterfaceSerializer">
+            <summary>
+            An interface implemented by DiscriminatedInterfaceSerializer.
+            </summary>
+        </member>
+        <member name="P:MongoDB.Bson.Serialization.Serializers.IDiscriminatedInterfaceSerializer.InterfaceSerializer">
+            <summary>
+            Gets the interface serializer.
+            </summary>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Bson.Serialization.Serializers.DiscriminatedInterfaceSerializer`1">
             <summary>
             Represents a serializer for Interfaces.
@@ -18919,6 +18984,14 @@
             <exception cref="T:System.ArgumentException">interfaceType</exception>
             <exception cref="T:System.ArgumentNullException">interfaceType</exception>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="P:MongoDB.Bson.Serialization.Serializers.DiscriminatedInterfaceSerializer`1.InterfaceSerializer">
+            <summary>
+            Gets the interface serializer.
+            </summary>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Bson.Serialization.Serializers.DiscriminatedInterfaceSerializer`1.Deserialize(MongoDB.Bson.Serialization.BsonDeserializationContext,MongoDB.Bson.Serialization.BsonDeserializationArgs)">
             <summary>
             Deserializes a value.
@@ -19101,7 +19174,13 @@
             <inheritdoc/>
         </member>
         <member name="P:MongoDB.Bson.Serialization.Serializers.DowncastingSerializer`2.DerivedSerializer">
+<<<<<<< HEAD
             <inheritdoc/>
+=======
+            <summary>
+            The serializer for the derived type.
+            </summary>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="P:MongoDB.Bson.Serialization.Serializers.DowncastingSerializer`2.DerivedType">
             <inheritdoc/>
@@ -19594,6 +19673,21 @@
             <param name="representation">The representation.</param>
             <returns>The reconfigured serializer.</returns>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="T:MongoDB.Bson.Serialization.Serializers.EnumSerializer">
+            <summary>
+            Static factory class for EnumSerializer.
+            </summary>
+        </member>
+        <member name="M:MongoDB.Bson.Serialization.Serializers.EnumSerializer.Create(System.Type)">
+            <summary>
+            Creates a EnumSerializer.
+            </summary>
+            <param name="valueType">The value type.</param>
+            <returns>A EnumSerializer</returns>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Bson.Serialization.Serializers.ExpandoObjectSerializer">
             <summary>
             Serializer for <see cref="T:System.Dynamic.ExpandoObject"/>.
@@ -19771,6 +19865,19 @@
             <param name="itemSerializer">The item serializer.</param>
             <returns>The reconfigured serializer.</returns>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="T:MongoDB.Bson.Serialization.Serializers.IImpliedImplementationInterfaceSerializer">
+            <summary>
+            An interface implemented by ImpliedImplementationInterfaceSerializer.
+            </summary>
+        </member>
+        <member name="P:MongoDB.Bson.Serialization.Serializers.IImpliedImplementationInterfaceSerializer.ImplementationSerializer">
+            <summary>
+            Gets the serializer for the implied implementation.
+            </summary>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Bson.Serialization.Serializers.ImpliedImplementationInterfaceSerializer`2">
             <summary>
             Represents a serializer for Interfaces.
@@ -20179,6 +20286,19 @@
             <param name="args">The serialization args.</param>
             <param name="value">The object.</param>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="T:MongoDB.Bson.Serialization.Serializers.IKeyValuePairSerializer">
+            <summary>
+            An interface implemented by KeyValuePairSerializer.
+            </summary>
+        </member>
+        <member name="P:MongoDB.Bson.Serialization.Serializers.IKeyValuePairSerializer.Representation">
+            <summary>
+            Gets the representation.
+            </summary>
+        </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Bson.Serialization.Serializers.KeyValuePairSerializer`2">
             <summary>
             Represents a serializer for KeyValuePairs.

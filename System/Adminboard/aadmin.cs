@@ -83,5 +83,10 @@ namespace System.Adminboard
             collection.DeleteOneAsync(admin => admin.Id == ObjectId.Parse(txtid.Text));
             ReadAllDocuments();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

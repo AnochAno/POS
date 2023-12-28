@@ -200,7 +200,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(197, 44);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Email:  ";
+            this.label2.Text = "User Name:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtadname
             // 
