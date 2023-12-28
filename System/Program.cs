@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Adminboard;
 
 namespace System
 {
@@ -14,7 +15,7 @@ namespace System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login_page());
+            Application.Run(new product());
         }
     }
 }
