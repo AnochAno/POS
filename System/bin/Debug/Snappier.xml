@@ -4,6 +4,8 @@
         <name>Snappier</name>
     </assembly>
     <members>
+<<<<<<< HEAD
+=======
         <member name="T:Snappier.Internal.ByteArrayPoolMemoryOwner">
             <summary>
             Wraps an inner byte array from <see cref="P:System.Buffers.ArrayPool`1.Shared"/>"/> with a limited length.
@@ -32,6 +34,7 @@
         <member name="M:Snappier.Internal.ByteArrayPoolMemoryOwner.Dispose">
             <inheritdoc />
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="F:Snappier.Internal.Constants.CharTable">
              <summary>
              Data stored per entry in lookup table:
@@ -47,7 +50,23 @@
                   (2) It properly aligns copy offset so we do not need a &lt;&lt;8
              </summary>
         </member>
+<<<<<<< HEAD
+        <member name="F:Snappier.Internal.CopyHelpers.PshufbFillPatterns">
+            <summary>
+            This is a table of shuffle control masks that can be used as the source
+            operand for PSHUFB to permute the contents of the destination XMM register
+            into a repeating byte pattern.
+            </summary>
+        </member>
+        <member name="F:Snappier.Internal.CopyHelpers.PatternSizeTable">
+            <summary>
+            j * (16 / j) for all j from 0 to 7. 0 is not actually used.
+            </summary>
+        </member>
+        <member name="M:Snappier.Internal.CopyHelpers.IncrementalCopy(System.Byte*,System.Byte*,System.Byte*,System.Byte*,System.SByte*)">
+=======
         <member name="M:Snappier.Internal.CopyHelpers.IncrementalCopy(System.Byte@,System.Byte@,System.Byte@,System.Byte@)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Copy [src, src+(opEnd-op)) to [op, (opEnd-op)) but faster than
             IncrementalCopySlow. buf_limit is the address past the end of the writable
@@ -57,6 +76,29 @@
             <param name="op">Pointer to the destination point in the buffer.</param>
             <param name="opEnd">Pointer to the end of the area to write in the buffer.</param>
             <param name="bufferEnd">Pointer past the end of the buffer.</param>
+<<<<<<< HEAD
+            <param name="pshufbFillPatterns">Fixed pointer to <see cref="F:Snappier.Internal.CopyHelpers.PshufbFillPatterns"/>.</param>
+            <remarks>
+            Fixing the PshufbFillPatterns array for use in the SSSE3 optimized route is expensive, so we
+            do that in the outer loop in <see cref="M:Snappier.Internal.SnappyDecompressor.DecompressAllTags(System.ReadOnlySpan{System.Byte})"/> and pass the pointer
+            to this method. This makes the logic a bit more confusing, but is a significant performance boost.
+            </remarks>
+        </member>
+        <member name="T:Snappier.Internal.EmptyMemoryOwner">
+            <summary>
+            A fake owner wrapping an empty <see cref="T:System.Memory`1"/>.
+            </summary>
+        </member>
+        <member name="M:Snappier.Internal.EmptyMemoryOwner.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="P:Snappier.Internal.EmptyMemoryOwner.Memory">
+            <inheritdoc />
+        </member>
+        <member name="M:Snappier.Internal.Helpers.Log2Floor(System.UInt32)">
+            <summary>
+            Return floor(log2(n)) for positive integer n.  Returns -1 iff n == 0.
+=======
         </member>
         <member name="M:Snappier.Internal.HashTable.TableEntry(System.UInt16@,System.UInt32,System.UInt32)">
              <summary>
@@ -79,6 +121,7 @@
         <member name="M:Snappier.Internal.Helpers.Log2Floor(System.UInt32)">
             <summary>
             Return floor(log2(n)) for positive integer n.  Returns -1 if n == 0.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
         </member>
         <member name="M:Snappier.Internal.Helpers.Log2FloorNonZero(System.UInt32)">
@@ -91,12 +134,27 @@
             Finds the index of the least significant non-zero bit.
             </summary>
         </member>
+<<<<<<< HEAD
+        <member name="T:Snappier.Internal.SlicedMemoryOwner">
+            <summary>
+            Wraps an inner <see cref="T:System.Buffers.IMemoryOwner`1"/> to have a shorter length.
+            </summary>
+        </member>
+        <member name="P:Snappier.Internal.SlicedMemoryOwner.Memory">
+            <inheritdoc />
+        </member>
+        <member name="M:Snappier.Internal.SlicedMemoryOwner.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:Snappier.Internal.SnappyCompressor.FindMatchLength(System.Byte*,System.Byte*,System.Byte*,System.UInt64@)">
+=======
         <member name="M:Snappier.Internal.Helpers.FindLsbSetNonZero(System.UInt64)">
             <summary>
             Finds the index of the least significant non-zero bit.
             </summary>
         </member>
         <member name="M:Snappier.Internal.SnappyCompressor.FindMatchLength(System.Byte@,System.Byte@,System.Byte@,System.UInt64@)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
              <summary>
              Find the largest n such that
             
@@ -104,7 +162,11 @@
                and n &lt;= (s2_limit - s2).
             
              Return (n, n &lt; 8).
+<<<<<<< HEAD
+             Does not read *s2_limit or beyond.
+=======
              Reads up to and including *s2_limit but not beyond.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
              Does not read *(s1 + (s2_limit - s2)) or beyond.
              Requires that s2_limit &gt;= s2.
             
@@ -146,6 +208,16 @@
             <returns>The length of the uncompressed data.</returns>
             <exception cref="T:System.IO.InvalidDataException">Invalid stream length</exception>
         </member>
+<<<<<<< HEAD
+        <member name="M:Snappier.Internal.SnappyDecompressor.ThrowInvalidDataException(System.String)">
+            <summary>
+            Throws an <see cref="M:Snappier.Internal.SnappyDecompressor.ThrowInvalidDataException(System.String)"/>. This is in a separate subroutine to allow the
+            calling subroutine to be inlined.
+            </summary>
+            <param name="message">Exception message.</param>
+        </member>
+=======
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:Snappier.Internal.SnappyDecompressor.ExtractData">
             <summary>
             Extracts the data from from the block, returning a block of memory and resetting the block.
@@ -211,7 +283,11 @@
             Parses the stream format used for Snappy streams.
             </summary>
         </member>
+<<<<<<< HEAD
+        <member name="M:Snappier.Internal.SnappyStreamDecompressor.ReadChunkCrc(System.Byte*@,System.Byte*,System.Int32@)">
+=======
         <member name="M:Snappier.Internal.SnappyStreamDecompressor.ReadChunkCrc(System.ReadOnlySpan{System.Byte}@)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Assuming that we're at the beginning of a chunk, reads the CRC. If partially read, stores the value in
             _scratch for subsequent reads. Should not be called if chunkByteProcessed >= 4.
@@ -385,6 +461,8 @@
         <member name="M:Snappier.SnappyStream.Dispose(System.Boolean)">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:System.Diagnostics.CodeAnalysis.AllowNullAttribute">
             <summary>Specifies that null is allowed as an input even if the corresponding type disallows it.</summary>
         </member>
@@ -449,5 +527,6 @@
         <member name="P:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute.ParameterValue">
             <summary>Gets the condition parameter value.</summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
     </members>
 </doc>

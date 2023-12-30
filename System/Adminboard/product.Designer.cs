@@ -30,118 +30,134 @@
         {
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.grdproduct = new System.Windows.Forms.DataGridView();
+            this.btnreset = new System.Windows.Forms.Button();
+            this.btndel = new System.Windows.Forms.Button();
+            this.btnupdate = new System.Windows.Forms.Button();
+            this.txtstock = new System.Windows.Forms.TextBox();
+            this.txtdiscount = new System.Windows.Forms.TextBox();
+            this.txtprice = new System.Windows.Forms.TextBox();
+            this.txtpname = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtid = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnsave = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdproduct)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(288, 19);
+            this.label6.Location = new System.Drawing.Point(592, 41);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(371, 44);
+            this.label6.Size = new System.Drawing.Size(382, 44);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Admin Resgistration";
+            this.label6.Text = "Product Registration";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Controls.Add(this.grdproduct);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.btnreset);
+            this.panel1.Controls.Add(this.btndel);
+            this.panel1.Controls.Add(this.btnupdate);
+            this.panel1.Controls.Add(this.txtstock);
+            this.panel1.Controls.Add(this.txtdiscount);
+            this.panel1.Controls.Add(this.txtprice);
+            this.panel1.Controls.Add(this.txtpname);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtid);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnsave);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(8, 8);
+            this.panel1.Location = new System.Drawing.Point(-3, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(910, 495);
+            this.panel1.Size = new System.Drawing.Size(1773, 787);
             this.panel1.TabIndex = 2;
             // 
-            // button4
+            // grdproduct
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(731, 411);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(145, 67);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Reset";
-            this.button4.UseVisualStyleBackColor = true;
+            this.grdproduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdproduct.Location = new System.Drawing.Point(740, 137);
+            this.grdproduct.Name = "grdproduct";
+            this.grdproduct.RowHeadersWidth = 51;
+            this.grdproduct.RowTemplate.Height = 24;
+            this.grdproduct.Size = new System.Drawing.Size(986, 587);
+            this.grdproduct.TabIndex = 15;
+            this.grdproduct.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdproduct_CellContentClick);
             // 
-            // button3
+            // btnreset
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(731, 313);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(145, 67);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnreset.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreset.Location = new System.Drawing.Point(68, 597);
+            this.btnreset.Name = "btnreset";
+            this.btnreset.Size = new System.Drawing.Size(145, 67);
+            this.btnreset.TabIndex = 13;
+            this.btnreset.Text = "Reset";
+            this.btnreset.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btndel
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(731, 208);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 67);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btndel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndel.Location = new System.Drawing.Point(68, 503);
+            this.btndel.Name = "btndel";
+            this.btndel.Size = new System.Drawing.Size(145, 67);
+            this.btndel.TabIndex = 12;
+            this.btndel.Text = "Delete";
+            this.btndel.UseVisualStyleBackColor = true;
+            this.btndel.Click += new System.EventHandler(this.btndel_Click);
             // 
-            // textBox5
+            // btnupdate
             // 
-            this.textBox5.Location = new System.Drawing.Point(283, 402);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(412, 41);
-            this.textBox5.TabIndex = 10;
+            this.btnupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdate.Location = new System.Drawing.Point(366, 503);
+            this.btnupdate.Name = "btnupdate";
+            this.btnupdate.Size = new System.Drawing.Size(145, 67);
+            this.btnupdate.TabIndex = 11;
+            this.btnupdate.Text = "Update";
+            this.btnupdate.UseVisualStyleBackColor = true;
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
             // 
-            // textBox4
+            // txtstock
             // 
-            this.textBox4.Location = new System.Drawing.Point(283, 339);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(412, 41);
-            this.textBox4.TabIndex = 9;
+            this.txtstock.Location = new System.Drawing.Point(283, 402);
+            this.txtstock.Multiline = true;
+            this.txtstock.Name = "txtstock";
+            this.txtstock.Size = new System.Drawing.Size(412, 41);
+            this.txtstock.TabIndex = 10;
             // 
-            // textBox3
+            // txtdiscount
             // 
-            this.textBox3.Location = new System.Drawing.Point(283, 274);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(412, 41);
-            this.textBox3.TabIndex = 8;
+            this.txtdiscount.Location = new System.Drawing.Point(283, 339);
+            this.txtdiscount.Multiline = true;
+            this.txtdiscount.Name = "txtdiscount";
+            this.txtdiscount.Size = new System.Drawing.Size(412, 41);
+            this.txtdiscount.TabIndex = 9;
             // 
-            // textBox2
+            // txtprice
             // 
-            this.textBox2.Location = new System.Drawing.Point(283, 208);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(412, 41);
-            this.textBox2.TabIndex = 7;
+            this.txtprice.Location = new System.Drawing.Point(283, 274);
+            this.txtprice.Multiline = true;
+            this.txtprice.Name = "txtprice";
+            this.txtprice.Size = new System.Drawing.Size(412, 41);
+            this.txtprice.TabIndex = 8;
+            // 
+            // txtpname
+            // 
+            this.txtpname.Location = new System.Drawing.Point(283, 208);
+            this.txtpname.Multiline = true;
+            this.txtpname.Name = "txtpname";
+            this.txtpname.Size = new System.Drawing.Size(412, 41);
+            this.txtpname.TabIndex = 7;
             // 
             // label5
             // 
@@ -151,7 +167,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(197, 44);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Stroke:";
+            this.label5.Text = "Stock";
             // 
             // label4
             // 
@@ -183,13 +199,13 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Product Name:";
             // 
-            // textBox1
+            // txtid
             // 
-            this.textBox1.Location = new System.Drawing.Point(283, 137);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(412, 41);
-            this.textBox1.TabIndex = 2;
+            this.txtid.Location = new System.Drawing.Point(283, 137);
+            this.txtid.Multiline = true;
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(412, 41);
+            this.txtid.TabIndex = 2;
             // 
             // label1
             // 
@@ -201,21 +217,22 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Product ID: ";
             // 
-            // button1
+            // btnsave
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(731, 111);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 67);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsave.Location = new System.Drawing.Point(550, 503);
+            this.btnsave.Name = "btnsave";
+            this.btnsave.Size = new System.Drawing.Size(145, 67);
+            this.btnsave.TabIndex = 0;
+            this.btnsave.Text = "Save";
+            this.btnsave.UseVisualStyleBackColor = true;
+            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
             // 
             // product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(922, 507);
+            this.ClientSize = new System.Drawing.Size(1763, 784);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -223,6 +240,7 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdproduct)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -231,19 +249,20 @@
 
         public Windows.Forms.Label label6;
         private Windows.Forms.Panel panel1;
-        private Windows.Forms.Button button4;
-        private Windows.Forms.Button button3;
-        private Windows.Forms.Button button2;
-        private Windows.Forms.TextBox textBox5;
-        private Windows.Forms.TextBox textBox4;
-        private Windows.Forms.TextBox textBox3;
-        private Windows.Forms.TextBox textBox2;
+        private Windows.Forms.Button btnreset;
+        private Windows.Forms.Button btndel;
+        private Windows.Forms.Button btnupdate;
+        private Windows.Forms.TextBox txtstock;
+        private Windows.Forms.TextBox txtdiscount;
+        private Windows.Forms.TextBox txtprice;
+        private Windows.Forms.TextBox txtpname;
         public Windows.Forms.Label label5;
         public Windows.Forms.Label label4;
         public Windows.Forms.Label label3;
         public Windows.Forms.Label label2;
-        private Windows.Forms.TextBox textBox1;
+        private Windows.Forms.TextBox txtid;
         public Windows.Forms.Label label1;
-        private Windows.Forms.Button button1;
+        private Windows.Forms.Button btnsave;
+        private Windows.Forms.DataGridView grdproduct;
     }
 }

@@ -577,24 +577,30 @@
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Out(System.String,System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Out(MongoDB.Driver.IMongoCollection{`0},MongoDB.Driver.TimeSeriesOptions,System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Out(System.String,MongoDB.Driver.TimeSeriesOptions,System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.OutAsync(MongoDB.Driver.IMongoCollection{`0},System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.OutAsync(System.String,System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.OutAsync(MongoDB.Driver.IMongoCollection{`0},MongoDB.Driver.TimeSeriesOptions,System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.OutAsync(System.String,MongoDB.Driver.TimeSeriesOptions,System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Project``1(MongoDB.Driver.ProjectionDefinition{`0,``0})">
             <inheritdoc />
         </member>
@@ -604,18 +610,25 @@
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.ReplaceWith``1(MongoDB.Driver.AggregateExpressionDefinition{`0,``0})">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.AggregateFluentBase`1.Search(MongoDB.Driver.Search.SearchDefinition{`0},MongoDB.Driver.Search.SearchHighlightOptions{`0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean)">
+=======
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Search(MongoDB.Driver.Search.SearchDefinition{`0},MongoDB.Driver.Search.SearchHighlightOptions{`0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean,System.Boolean)">
             <inheritdoc />
         </member>
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Search(MongoDB.Driver.Search.SearchDefinition{`0},MongoDB.Driver.Search.SearchOptions{`0})">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <inheritdoc />
         </member>
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.SearchMeta(MongoDB.Driver.Search.SearchDefinition{`0},System.String,MongoDB.Driver.Search.SearchCountOptions)">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Set(MongoDB.Driver.SetFieldDefinitions{`0})">
             <inheritdoc />
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.SetWindowFields``1(MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{`0},``0})">
             <inheritdoc />
         </member>
@@ -646,9 +659,12 @@
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.Unwind``1(MongoDB.Driver.FieldDefinition{`0},MongoDB.Driver.AggregateUnwindOptions{``0})">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.VectorSearch(MongoDB.Driver.FieldDefinition{`0},MongoDB.Driver.QueryVector,System.Int32,MongoDB.Driver.VectorSearchOptions{`0})">
             <inheritdoc />
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.AggregateFluentBase`1.ToCollection(System.Threading.CancellationToken)">
             <inheritdoc />
         </member>
@@ -973,9 +989,12 @@
         <member name="P:MongoDB.Driver.Builders`1.Projection">
             <summary>Gets a <see cref="T:MongoDB.Driver.ProjectionDefinitionBuilder`1"/>.</summary>
         </member>
+<<<<<<< HEAD
+=======
         <member name="P:MongoDB.Driver.Builders`1.SetFields">
             <summary>Gets a <see cref="T:MongoDB.Driver.SetFieldDefinitionsBuilder`1"/>.</summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="P:MongoDB.Driver.Builders`1.Sort">
             <summary>Gets a <see cref="T:MongoDB.Driver.SortDefinitionBuilder`1"/>.</summary>
         </member>
@@ -2009,6 +2028,8 @@
             </summary>
             <value>The maximum time.</value>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.CreateSearchIndexModel">
             <summary>
             Model for creating a search index.
@@ -2029,6 +2050,7 @@
             <param name="name">The name.</param>
             <param name="definition">The definition.</param>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.CreateViewOptions`1">
             <summary>
             Options for creating a view.
@@ -7448,6 +7470,8 @@
             <param name="cancellationToken">The cancellation token.</param>
             <returns>A cursor.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.IAggregateFluent`1.Out(MongoDB.Driver.IMongoCollection{`0},MongoDB.Driver.TimeSeriesOptions,System.Threading.CancellationToken)">
             <summary>
             Appends an out stage to the pipeline and executes it, and then returns a cursor to read the contents of the output collection.
@@ -7466,6 +7490,7 @@
             <param name="cancellationToken">The cancellation token.</param>
             <returns>A cursor.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.IAggregateFluent`1.OutAsync(MongoDB.Driver.IMongoCollection{`0},System.Threading.CancellationToken)">
             <summary>
             Appends an out stage to the pipeline and executes it, and then returns a cursor to read the contents of the output collection.
@@ -7482,6 +7507,8 @@
             <param name="cancellationToken">The cancellation token.</param>
             <returns>A Task whose result is a cursor.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.IAggregateFluent`1.OutAsync(MongoDB.Driver.IMongoCollection{`0},MongoDB.Driver.TimeSeriesOptions,System.Threading.CancellationToken)">
             <summary>
             Appends an out stage to the pipeline and executes it, and then returns a cursor to read the contents of the output collection.
@@ -7500,6 +7527,7 @@
             <param name="cancellationToken">The cancellation token.</param>
             <returns>A Task whose result is a cursor.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.IAggregateFluent`1.Project``1(MongoDB.Driver.ProjectionDefinition{`0,``0})">
             <summary>
             Appends a project stage to the pipeline.
@@ -7526,6 +7554,8 @@
             <param name="newRoot">The new root.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.IAggregateFluent`1.Set(MongoDB.Driver.SetFieldDefinitions{`0})">
             <summary>
             Appends a $set stage to the pipeline.
@@ -7533,6 +7563,7 @@
             <param name="fields">The fields to set.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.IAggregateFluent`1.SetWindowFields``1(MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{`0},``0})">
             <summary>
             Appends a $setWindowFields to the pipeline.
@@ -7541,7 +7572,11 @@
             <param name="output">The window fields definition.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.IAggregateFluent`1.Search(MongoDB.Driver.Search.SearchDefinition{`0},MongoDB.Driver.Search.SearchHighlightOptions{`0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean)">
+=======
         <member name="M:MongoDB.Driver.IAggregateFluent`1.Search(MongoDB.Driver.Search.SearchDefinition{`0},MongoDB.Driver.Search.SearchHighlightOptions{`0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean,System.Boolean)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Appends a $search stage to the pipeline.
             </summary>
@@ -7553,6 +7588,10 @@
             Flag that specifies whether to perform a full document lookup on the backend database
             or return only stored source fields directly from Atlas Search.
             </param>
+<<<<<<< HEAD
+            <returns>The fluent aggregate interface.</returns>
+        </member>
+=======
             <param name="scoreDetails">
             Flag that specifies whether to return a detailed breakdown
             of the score for each document in the result.
@@ -7569,6 +7608,7 @@
             The fluent aggregate interface.
             </returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.IAggregateFluent`1.SearchMeta(MongoDB.Driver.Search.SearchDefinition{`0},System.String,MongoDB.Driver.Search.SearchCountOptions)">
             <summary>
             Appends a $searchMeta stage to the pipeline.
@@ -7663,6 +7703,8 @@
             <param name="options">The options.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.IAggregateFluent`1.VectorSearch(MongoDB.Driver.FieldDefinition{`0},MongoDB.Driver.QueryVector,System.Int32,MongoDB.Driver.VectorSearchOptions{`0})">
             <summary>
             Appends a vector search stage.
@@ -7673,6 +7715,7 @@
             <param name="options">The vector search options.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.IOrderedAggregateFluent`1">
             <summary>
             Fluent interface for aggregate.
@@ -7757,6 +7800,8 @@
             <param name="options">The options (optional).</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.IAggregateFluentExtensions.ChangeStreamSplitLargeEvent``1(MongoDB.Driver.IAggregateFluent{MongoDB.Driver.ChangeStreamDocument{``0}})">
             <summary>
             Appends a $changeStreamSplitLargeEvent stage to the pipeline.
@@ -7765,6 +7810,7 @@
             <param name="aggregate">The aggregate.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.IAggregateFluentExtensions.Densify``1(MongoDB.Driver.IAggregateFluent{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},MongoDB.Driver.DensifyRange,System.Collections.Generic.IEnumerable{System.Linq.Expressions.Expression{System.Func{``0,System.Object}}})">
             <summary>
             Appends a $densify stage to the pipeline.
@@ -8057,6 +8103,8 @@
             The fluent aggregate interface.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.IAggregateFluentExtensions.Set``2(MongoDB.Driver.IAggregateFluent{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
             <summary>
             Appends a $set stage to the pipeline.
@@ -8067,6 +8115,7 @@
             <param name="fields">The fields to set.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.IAggregateFluentExtensions.SetWindowFields``2(MongoDB.Driver.IAggregateFluent{``0},System.Linq.Expressions.Expression{System.Func{MongoDB.Driver.ISetWindowFieldsPartition{``0},``1}})">
             <summary>
             Appends a $setWindowFields to the pipeline.
@@ -8294,6 +8343,8 @@
             The fluent aggregate interface.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.IAggregateFluentExtensions.VectorSearch``1(MongoDB.Driver.IAggregateFluent{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},MongoDB.Driver.QueryVector,System.Int32,MongoDB.Driver.VectorSearchOptions{``0})">
             <summary>
             Appends a $vectorSearch stage.
@@ -8306,6 +8357,7 @@
             <param name="options">The vector search options.</param>
             <returns>The fluent aggregate interface.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.IClientSession">
             <summary>
             The interface for a client session.
@@ -9126,11 +9178,14 @@
             Gets the index manager.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
         <member name="P:MongoDB.Driver.IMongoCollection`1.SearchIndexes">
             <summary>
             Gets the search index manager.
             </summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="P:MongoDB.Driver.IMongoCollection`1.Settings">
             <summary>
             Gets the settings.
@@ -16106,7 +16161,11 @@
             A sample of the elements in the <paramref name="source"/>.
             </returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Linq.MongoQueryable.Search``1(MongoDB.Driver.Linq.IMongoQueryable{``0},MongoDB.Driver.Search.SearchDefinition{``0},MongoDB.Driver.Search.SearchHighlightOptions{``0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean)">
+=======
         <member name="M:MongoDB.Driver.Linq.MongoQueryable.Search``1(MongoDB.Driver.Linq.IMongoQueryable{``0},MongoDB.Driver.Search.SearchDefinition{``0},MongoDB.Driver.Search.SearchHighlightOptions{``0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean,System.Boolean)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Appends a $search stage to the LINQ pipeline.
             </summary>
@@ -16120,6 +16179,8 @@
             Flag that specifies whether to perform a full document lookup on the backend database
             or return only stored source fields directly from Atlas Search.
             </param>
+<<<<<<< HEAD
+=======
             <param name="scoreDetails">
             Flag that specifies whether to return a detailed breakdown
             of the score for each document in the result. 
@@ -16134,6 +16195,7 @@
             <param name="source">A sequence of values.</param>
             <param name="searchDefinition">The search definition.</param>
             <param name="searchOptions">The search options.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <returns>The queryable with a new stage appended.</returns>
         </member>
         <member name="M:MongoDB.Driver.Linq.MongoQueryable.SearchMeta``1(MongoDB.Driver.Linq.IMongoQueryable{``0},MongoDB.Driver.Search.SearchDefinition{``0},System.String,MongoDB.Driver.Search.SearchCountOptions)">
@@ -17361,6 +17423,8 @@
             An <see cref="T:MongoDB.Driver.Linq.IOrderedMongoQueryable`1"/> whose elements are sorted in descending order according to a key.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.Linq.MongoQueryable.VectorSearch``2(MongoDB.Driver.Linq.IMongoQueryable{``0},MongoDB.Driver.FieldDefinition{``0},MongoDB.Driver.QueryVector,System.Int32,MongoDB.Driver.VectorSearchOptions{``0})">
             <summary>
             Appends a $vectorSearch stage to the LINQ pipeline.
@@ -17391,6 +17455,7 @@
             The queryable with a new stage appended.
             </returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.Linq.MongoQueryable.Where``1(MongoDB.Driver.Linq.IMongoQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
             <summary>
             Filters a sequence of values based on a predicate.
@@ -18560,9 +18625,12 @@
         <member name="P:MongoDB.Driver.MongoCollectionBase`1.Indexes">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+=======
         <member name="P:MongoDB.Driver.MongoCollectionBase`1.SearchIndexes">
             <inheritdoc />
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="P:MongoDB.Driver.MongoCollectionBase`1.Settings">
             <inheritdoc />
         </member>
@@ -20689,6 +20757,8 @@
             </summary>
             <returns>The canonical URL.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.MongoUrlTypeConverter">
             <summary>Implements a <see cref="T:System.ComponentModel.TypeConverter"/> for converting <see cref="T:MongoDB.Driver.MongoUrl"/>.</summary>
         </member>
@@ -20698,6 +20768,7 @@
         <member name="M:MongoDB.Driver.MongoUrlTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
             <inheritdoc />
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.MongoUtils">
             <summary>
             Various static utility methods.
@@ -21105,7 +21176,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="outputSerializer">The output serializer.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Bucket``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},System.Collections.Generic.IEnumerable{``2},MongoDB.Driver.AggregateBucketOptions{``2})">
             <summary>
@@ -21118,7 +21195,13 @@
             <param name="groupBy">The group by expression.</param>
             <param name="boundaries">The boundaries.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Bucket``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},System.Collections.Generic.IEnumerable{``2},MongoDB.Driver.ProjectionDefinition{``1,``3},MongoDB.Driver.AggregateBucketOptions{``2})">
             <summary>
@@ -21133,7 +21216,13 @@
             <param name="boundaries">The boundaries.</param>
             <param name="output">The output projection.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Bucket``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Collections.Generic.IEnumerable{``2},MongoDB.Driver.AggregateBucketOptions{``2},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21147,7 +21236,13 @@
             <param name="boundaries">The boundaries.</param>
             <param name="options">The options.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Bucket``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Collections.Generic.IEnumerable{``2},System.Linq.Expressions.Expression{System.Func{System.Linq.IGrouping{``2,``1},``3}},MongoDB.Driver.AggregateBucketOptions{``2},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21163,7 +21258,13 @@
             <param name="output">The output projection.</param>
             <param name="options">The options.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.BucketAuto``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},System.Int32,MongoDB.Driver.AggregateBucketAutoOptions)">
             <summary>
@@ -21176,7 +21277,13 @@
             <param name="groupBy">The group by expression.</param>
             <param name="buckets">The number of buckets.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.BucketAuto``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},System.Int32,MongoDB.Driver.ProjectionDefinition{``1,``3},MongoDB.Driver.AggregateBucketAutoOptions)">
             <summary>
@@ -21191,7 +21298,13 @@
             <param name="buckets">The number of buckets.</param>
             <param name="output">The output projection.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.BucketAuto``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Int32,MongoDB.Driver.AggregateBucketAutoOptions,MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21205,7 +21318,13 @@
             <param name="buckets">The number of buckets.</param>
             <param name="options">The options (optional).</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.BucketAuto``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Int32,System.Linq.Expressions.Expression{System.Func{System.Linq.IGrouping{MongoDB.Driver.AggregateBucketAutoResultId{``2},``1},``3}},MongoDB.Driver.AggregateBucketAutoOptions,MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21221,7 +21340,13 @@
             <param name="output">The output projection.</param>
             <param name="options">The options (optional).</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.BucketAutoForLinq2``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Int32,System.Linq.Expressions.Expression{System.Func{System.Linq.IGrouping{``2,``1},``3}},MongoDB.Driver.AggregateBucketAutoOptions,MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21237,7 +21362,13 @@
             <param name="output">The output projection.</param>
             <param name="options">The options (optional).</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.ChangeStream``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.ChangeStreamStageOptions)">
             <summary>
@@ -21250,6 +21381,11 @@
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.ChangeStreamSplitLargeEvent``1(MongoDB.Driver.PipelineDefinition{MongoDB.Driver.ChangeStreamDocument{``0},MongoDB.Driver.ChangeStreamDocument{``0}})">
@@ -21259,6 +21395,7 @@
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Count``2(MongoDB.Driver.PipelineDefinition{``0,``1})">
             <summary>
@@ -21267,7 +21404,13 @@
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Densify``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.FieldDefinition{``1},MongoDB.Driver.DensifyRange,System.Collections.Generic.IEnumerable{MongoDB.Driver.FieldDefinition{``1}})">
             <summary>
@@ -21279,7 +21422,13 @@
             <param name="field">The field.</param>
             <param name="range">The range.</param>
             <param name="partitionByFields">The partition by fields.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Densify``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.FieldDefinition{``1},MongoDB.Driver.DensifyRange,MongoDB.Driver.FieldDefinition{``1}[])">
             <summary>
@@ -21291,7 +21440,13 @@
             <param name="field">The field.</param>
             <param name="range">The range.</param>
             <param name="partitionByFields">The partition by fields.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Densify``2(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},MongoDB.Driver.DensifyRange,System.Collections.Generic.IEnumerable{System.Linq.Expressions.Expression{System.Func{``1,System.Object}}})">
             <summary>
@@ -21303,7 +21458,13 @@
             <param name="field">The field.</param>
             <param name="range">The range.</param>
             <param name="partitionByFields">The partition by fields.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Densify``2(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},MongoDB.Driver.DensifyRange,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])">
             <summary>
@@ -21315,7 +21476,13 @@
             <param name="field">The field.</param>
             <param name="range">The range.</param>
             <param name="partitionByFields">The partition by fields.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Documents``1(MongoDB.Driver.PipelineDefinition{MongoDB.Driver.NoPipelineInput,MongoDB.Driver.NoPipelineInput},MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.NoPipelineInput,System.Collections.Generic.IEnumerable{``0}},MongoDB.Bson.Serialization.IBsonSerializer{``0})">
             <summary>
@@ -21325,7 +21492,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="documents">The documents.</param>
             <param name="documentSerializer">The document serializer.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Documents``1(MongoDB.Driver.PipelineDefinition{MongoDB.Driver.NoPipelineInput,MongoDB.Driver.NoPipelineInput},System.Collections.Generic.IEnumerable{``0},MongoDB.Bson.Serialization.IBsonSerializer{``0})">
             <summary>
@@ -21335,7 +21508,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="documents">The documents.</param>
             <param name="documentSerializer">The document serializer.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Facet``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Collections.Generic.IEnumerable{MongoDB.Driver.AggregateFacet{``1}},MongoDB.Driver.AggregateFacetOptions{``2})">
             <summary>
@@ -21347,7 +21526,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="facets">The facets.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Facet``2(MongoDB.Driver.PipelineDefinition{``0,``1},System.Collections.Generic.IEnumerable{MongoDB.Driver.AggregateFacet{``1}})">
             <summary>
@@ -21357,7 +21542,13 @@
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="facets">The facets.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Facet``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateFacet{``1}[])">
             <summary>
@@ -21367,7 +21558,13 @@
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="facets">The facets.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Facet``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateFacet{``1}[])">
             <summary>
@@ -21378,7 +21575,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="facets">The facets.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.For``1(MongoDB.Bson.Serialization.IBsonSerializer{``0})">
             <summary>
@@ -21386,7 +21589,13 @@
             </summary>
             <typeparam name="TInput">The type of the output.</typeparam>
             <param name="inputSerializer">The inputSerializer serializer.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>An empty pipeline.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.GraphLookup``9(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},MongoDB.Driver.FieldDefinition{``2,``3},MongoDB.Driver.FieldDefinition{``2,``4},MongoDB.Driver.AggregateExpressionDefinition{``1,``5},MongoDB.Driver.FieldDefinition{``8,``7},MongoDB.Driver.FieldDefinition{``6,System.Int32},MongoDB.Driver.AggregateGraphLookupOptions{``2,``6,``8})">
             <summary>
@@ -21409,7 +21618,11 @@
             <param name="as">The as field.</param>
             <param name="depthField">The depth field.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>The fluent aggregate interface.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.GraphLookup``8(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},MongoDB.Driver.FieldDefinition{``2,``3},MongoDB.Driver.FieldDefinition{``2,``4},MongoDB.Driver.AggregateExpressionDefinition{``1,``5},MongoDB.Driver.FieldDefinition{``7,``6},MongoDB.Driver.AggregateGraphLookupOptions{``2,``2,``7})">
             <summary>
@@ -21430,7 +21643,11 @@
             <param name="startWith">The start with value.</param>
             <param name="as">The as field.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.GraphLookup``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},MongoDB.Driver.FieldDefinition{``2,MongoDB.Bson.BsonValue},MongoDB.Driver.FieldDefinition{``2,MongoDB.Bson.BsonValue},MongoDB.Driver.AggregateExpressionDefinition{``1,MongoDB.Bson.BsonValue},MongoDB.Driver.FieldDefinition{MongoDB.Bson.BsonDocument,System.Collections.Generic.IEnumerable{MongoDB.Bson.BsonDocument}},MongoDB.Driver.FieldDefinition{MongoDB.Bson.BsonDocument,System.Int32})">
             <summary>
@@ -21446,7 +21663,11 @@
             <param name="startWith">The start with value.</param>
             <param name="as">The as field.</param>
             <param name="depthField">The depth field.</param>
+<<<<<<< HEAD
+            <returns>The fluent aggregate interface.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.GraphLookup``8(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},System.Linq.Expressions.Expression{System.Func{``2,``3}},System.Linq.Expressions.Expression{System.Func{``2,``4}},System.Linq.Expressions.Expression{System.Func{``1,``5}},System.Linq.Expressions.Expression{System.Func{``7,``6}},MongoDB.Driver.AggregateGraphLookupOptions{``2,``2,``7},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21468,7 +21689,11 @@
             <param name="as">The as field.</param>
             <param name="options">The options.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.GraphLookup``9(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},System.Linq.Expressions.Expression{System.Func{``2,``3}},System.Linq.Expressions.Expression{System.Func{``2,``4}},System.Linq.Expressions.Expression{System.Func{``1,``5}},System.Linq.Expressions.Expression{System.Func{``8,``7}},System.Linq.Expressions.Expression{System.Func{``6,System.Int32}},MongoDB.Driver.AggregateGraphLookupOptions{``2,``6,``8},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21492,7 +21717,11 @@
             <param name="depthField">The depth field.</param>
             <param name="options">The options.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Group``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.ProjectionDefinition{``1,``2})">
             <summary>
@@ -21503,7 +21732,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="group">The group projection.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>s
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Group``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.ProjectionDefinition{``1,MongoDB.Bson.BsonDocument})">
             <summary>
@@ -21513,7 +21748,13 @@
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="group">The group projection.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Group``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Linq.Expressions.Expression{System.Func{System.Linq.IGrouping{``2,``1},``3}},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21527,7 +21768,13 @@
             <param name="id">The id.</param>
             <param name="group">The group projection.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <remarks>This method can only be used with LINQ2 but that can't be verified until Render is called.</remarks>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Limit``2(MongoDB.Driver.PipelineDefinition{``0,``1},System.Int64)">
@@ -21538,7 +21785,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="limit">The limit.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Lookup``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},MongoDB.Driver.FieldDefinition{``1},MongoDB.Driver.FieldDefinition{``2},MongoDB.Driver.FieldDefinition{``3},MongoDB.Driver.AggregateLookupOptions{``2,``3})">
             <summary>
@@ -21554,7 +21807,13 @@
             <param name="foreignField">The foreign field.</param>
             <param name="as">The "as" field.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Lookup``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.Linq.Expressions.Expression{System.Func{``2,System.Object}},System.Linq.Expressions.Expression{System.Func{``3,System.Object}},MongoDB.Driver.AggregateLookupOptions{``2,``3})">
             <summary>
@@ -21570,7 +21829,13 @@
             <param name="foreignField">The foreign field.</param>
             <param name="as">The "as" field.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Lookup``6(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},MongoDB.Bson.BsonDocument,MongoDB.Driver.PipelineDefinition{``2,``3},MongoDB.Driver.FieldDefinition{``5,``4},MongoDB.Driver.AggregateLookupOptions{``2,``5})">
             <summary>
@@ -21588,7 +21853,11 @@
             <param name="lookupPipeline">The lookup pipeline.</param>
             <param name="as">The as field in <typeparamref name="TOutput" /> in which to place the results of the lookup pipeline.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Lookup``6(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},MongoDB.Bson.BsonDocument,MongoDB.Driver.PipelineDefinition{``2,``3},System.Linq.Expressions.Expression{System.Func{``5,``4}},MongoDB.Driver.AggregateLookupOptions{``2,``5})">
             <summary>
@@ -21606,7 +21875,11 @@
             <param name="lookupPipeline">The lookup pipeline.</param>
             <param name="as">The as field in <typeparamref name="TOutput" /> in which to place the results of the lookup pipeline.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Match``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.FilterDefinition{``1})">
             <summary>
@@ -21616,7 +21889,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="filter">The filter.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Match``2(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,System.Boolean}})">
             <summary>
@@ -21626,7 +21905,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="filter">The filter.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.OfType``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Bson.Serialization.IBsonSerializer{``2})">
             <summary>
@@ -21637,7 +21922,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="outputSerializer">The output serializer.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <exception cref="T:System.NotSupportedException"></exception>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Merge``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``2},MongoDB.Driver.MergeStageOptions{``2})">
@@ -21650,10 +21941,19 @@
             <param name="pipeline">The pipeline.</param>
             <param name="outputCollection">The output collection.</param>
             <param name="mergeOptions">The merge options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+            <exception cref="T:System.NotSupportedException"></exception>
+        </member>
+        <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Out``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``1})">
+=======
             <returns>A new pipeline with an additional stage.</returns>
             <exception cref="T:System.NotSupportedException"></exception>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Out``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.IMongoCollection{``1},MongoDB.Driver.TimeSeriesOptions)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Appends a $out stage to the pipeline.
             </summary>
@@ -21661,8 +21961,14 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="outputCollection">The output collection.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <param name="timeSeriesOptions">The time series options.</param>
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <exception cref="T:System.NotSupportedException"></exception>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Project``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.ProjectionDefinition{``1,``2})">
@@ -21674,7 +21980,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="projection">The projection.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <exception cref="T:System.NotSupportedException"></exception>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Project``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.ProjectionDefinition{``1,MongoDB.Bson.BsonDocument})">
@@ -21685,7 +21997,13 @@
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="projection">The projection.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Project``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21697,7 +22015,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="projection">The projection.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.ReplaceRoot``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2})">
             <summary>
@@ -21708,7 +22032,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="newRoot">The new root.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.ReplaceRoot``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21720,7 +22050,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="newRoot">The new root.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.ReplaceWith``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2})">
             <summary>
@@ -21731,7 +22067,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="newRoot">The new root.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.ReplaceWith``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21743,9 +22085,17 @@
             <param name="pipeline">The pipeline.</param>
             <param name="newRoot">The new root.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+        </member>
+        <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Search``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.Search.SearchDefinition{``1},MongoDB.Driver.Search.SearchHighlightOptions{``1},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean)">
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Search``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.Search.SearchDefinition{``1},MongoDB.Driver.Search.SearchHighlightOptions{``1},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean,System.Boolean)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Appends a $search stage to the pipeline.
             </summary>
@@ -21760,6 +22110,11 @@
             Flag that specifies whether to perform a full document lookup on the backend database
             or return only stored source fields directly from Atlas Search.
             </param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <param name="scoreDetails">
             Flag that specifies whether to return a detailed breakdown
             of the score for each document in the result.
@@ -21776,6 +22131,7 @@
             <param name="searchDefinition">The search definition.</param>
             <param name="searchOptions">The search options.</param>
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SearchMeta``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.Search.SearchDefinition{``1},System.String,MongoDB.Driver.Search.SearchCountOptions)">
             <summary>
@@ -21787,6 +22143,11 @@
             <param name="query">The search definition.</param>
             <param name="indexName">The index name.</param>
             <param name="count">The count options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Set``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.SetFieldDefinitions{``1})">
@@ -21809,6 +22170,7 @@
             <param name="pipeline">The pipeline.</param>
             <param name="fields">The fields to set.</param>
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{``1},``2})">
             <summary>
@@ -21819,11 +22181,19 @@
             <typeparam name="TWindowFields">The type of the added window fields.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="output">The window fields expression.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+        </member>
+        <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3})">
+            <summary>
+            Create a $setWindowFields stage.
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3})">
             <summary>
             Appends a $setWindowFields stage to the pipeline.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
@@ -21832,11 +22202,19 @@
             <param name="pipeline">The pipeline.</param>
             <param name="partitionBy">The partitionBy expression.</param>
             <param name="output">The window fields expression.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+        </member>
+        <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},MongoDB.Driver.SortDefinition{``1},MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3})">
+            <summary>
+            Create a $setWindowFields stage.
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2},MongoDB.Driver.SortDefinition{``1},MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3})">
             <summary>
             Appends a $setWindowFields stage to the pipeline.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
@@ -21846,11 +22224,19 @@
             <param name="partitionBy">The partitionBy expression.</param>
             <param name="sortBy">The sortBy expression.</param>
             <param name="output">The window fields expression.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+        </member>
+        <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3}})">
+            <summary>
+            Create a $setWindowFields stage.
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3}})">
             <summary>
             Appends a $setWindowFields stage to the pipeline.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
@@ -21858,11 +22244,19 @@
             <typeparam name="TWindowFields">The type of the added window fields.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="output">The window fields expression.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+        </member>
+        <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Linq.Expressions.Expression{System.Func{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3}})">
+            <summary>
+            Create a $setWindowFields stage.
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Linq.Expressions.Expression{System.Func{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3}})">
             <summary>
             Appends a $setWindowFields stage to the pipeline.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
@@ -21871,11 +22265,19 @@
             <param name="pipeline">The pipeline.</param>
             <param name="partitionBy">The partitionBy expression.</param>
             <param name="output">The window fields expression.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+        </member>
+        <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},MongoDB.Driver.SortDefinition{``1},System.Linq.Expressions.Expression{System.Func{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3}})">
+            <summary>
+            Create a $setWindowFields stage.
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SetWindowFields``4(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},MongoDB.Driver.SortDefinition{``1},System.Linq.Expressions.Expression{System.Func{MongoDB.Driver.ISetWindowFieldsPartition{``1},``3}})">
             <summary>
             Appends a $setWindowFields stage to the pipeline.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <typeparam name="TIntermediate">The type of the intermediate documents.</typeparam>
@@ -21885,7 +22287,11 @@
             <param name="partitionBy">The partitionBy expression.</param>
             <param name="sortBy">The sortBy expression.</param>
             <param name="output">The window fields expression.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Skip``2(MongoDB.Driver.PipelineDefinition{``0,``1},System.Int64)">
             <summary>
@@ -21895,7 +22301,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="skip">The number of documents to skip.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Sort``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.SortDefinition{``1})">
             <summary>
@@ -21905,7 +22317,13 @@
             <typeparam name="TOutput">The type of the output documents.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="sort">The sort definition.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SortByCount``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.AggregateExpressionDefinition{``1,``2})">
             <summary>
@@ -21916,7 +22334,13 @@
             <typeparam name="TValue">The type of the values.</typeparam>
             <param name="pipeline">The pipeline.</param>
             <param name="value">The value expression.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.SortByCount``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},MongoDB.Driver.ExpressionTranslationOptions)">
             <summary>
@@ -21928,7 +22352,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="value">The value expression.</param>
             <param name="translationOptions">The translation options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.UnionWith``3(MongoDB.Driver.PipelineDefinition{``0,``2},MongoDB.Driver.IMongoCollection{``1},MongoDB.Driver.PipelineDefinition{``1,``2})">
             <summary>
@@ -21940,7 +22370,11 @@
             <param name="pipeline">The pipeline.</param>
             <param name="withCollection">The with collection.</param>
             <param name="withPipeline">The with pipeline.</param>
+<<<<<<< HEAD
+            <returns>The stage.</returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Unwind``3(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.FieldDefinition{``1},MongoDB.Driver.AggregateUnwindOptions{``2})">
             <summary>
@@ -21952,7 +22386,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="field">The field.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            A new pipeline with an additional stage.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Unwind``2(MongoDB.Driver.PipelineDefinition{``0,``1},MongoDB.Driver.FieldDefinition{``1},MongoDB.Driver.AggregateUnwindOptions{MongoDB.Bson.BsonDocument})">
             <summary>
@@ -21963,7 +22403,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="field">The field to unwind.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Unwind``2(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},MongoDB.Driver.AggregateUnwindOptions{MongoDB.Bson.BsonDocument})">
             <summary>
@@ -21974,7 +22420,13 @@
             <param name="pipeline">The pipeline.</param>
             <param name="field">The field to unwind.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.Unwind``3(MongoDB.Driver.PipelineDefinition{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},MongoDB.Driver.AggregateUnwindOptions{``2})">
             <summary>
@@ -21986,6 +22438,11 @@
             <param name="pipeline">The pipeline.</param>
             <param name="field">The field to unwind.</param>
             <param name="options">The options.</param>
+<<<<<<< HEAD
+            <returns>
+            The fluent aggregate interface.
+            </returns>
+=======
             <returns>A new pipeline with an additional stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineDefinitionBuilder.VectorSearch``3(MongoDB.Driver.PipelineDefinition{``0,``2},System.Linq.Expressions.Expression{System.Func{``2,``1}},MongoDB.Driver.QueryVector,System.Int32,MongoDB.Driver.VectorSearchOptions{``2})">
@@ -22014,6 +22471,7 @@
             <param name="limit">The limit.</param>
             <param name="options">The vector search options.</param>
             <returns>A new pipeline with an additional stage.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="T:MongoDB.Driver.AppendedStagePipelineDefinition`3">
             <summary>
@@ -22501,6 +22959,8 @@
             <param name="options">The options.</param>
             <returns>The stage.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.ChangeStreamSplitLargeEvent``1">
             <summary>
             Creates a $changeStreamSplitLargeEvent stage.
@@ -22508,6 +22968,7 @@
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <returns>The stage.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.Count``1">
             <summary>
             Creates a $count stage.
@@ -22837,13 +23298,20 @@
             <param name="outputSerializer">The output serializer.</param>
             <returns>The stage.</returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.Out``1(MongoDB.Driver.IMongoCollection{``0})">
+=======
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.Out``1(MongoDB.Driver.IMongoCollection{``0},MongoDB.Driver.TimeSeriesOptions)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Creates a $out stage.
             </summary>
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <param name="outputCollection">The output collection.</param>
+<<<<<<< HEAD
+=======
             <param name="timeSeriesOptions">The time series options.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <returns>The stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.Project``2(MongoDB.Driver.ProjectionDefinition{``0,``1})">
@@ -22873,7 +23341,11 @@
             <param name="translationOptions">The translation options.</param>
             <returns>The stage.</returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.Search``1(MongoDB.Driver.Search.SearchDefinition{``0},MongoDB.Driver.Search.SearchHighlightOptions{``0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean)">
+=======
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.Search``1(MongoDB.Driver.Search.SearchDefinition{``0},MongoDB.Driver.Search.SearchHighlightOptions{``0},System.String,MongoDB.Driver.Search.SearchCountOptions,System.Boolean,System.Boolean)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Creates a $search stage.
             </summary>
@@ -22886,6 +23358,8 @@
             Flag that specifies whether to perform a full document lookup on the backend database
             or return only stored source fields directly from Atlas Search.
             </param>
+<<<<<<< HEAD
+=======
             <param name="scoreDetails">
             Flag that specifies whether to return a detailed breakdown
             of the score for each document in the result.
@@ -22899,6 +23373,7 @@
             <typeparam name="TInput">The type of the input documents.</typeparam>
             <param name="searchDefinition">The search definition.</param>
             <param name="searchOptions">The search options.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <returns>The stage.</returns>
         </member>
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.SearchMeta``1(MongoDB.Driver.Search.SearchDefinition{``0},System.String,MongoDB.Driver.Search.SearchCountOptions)">
@@ -22949,6 +23424,8 @@
             <param name="translationOptions">The translation options.</param>
             <returns>The stage.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.Set``1(MongoDB.Driver.SetFieldDefinitions{``0})">
             <summary>
             Creates a $set stage.
@@ -22966,6 +23443,7 @@
             <param name="fields">The fields to set.</param>
             <returns>The stage.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.SetWindowFields``2(MongoDB.Driver.AggregateExpressionDefinition{MongoDB.Driver.ISetWindowFieldsPartition{``0},``1})">
             <summary>
             Create a $setWindowFields stage.
@@ -23116,6 +23594,8 @@
             <param name="options">The options.</param>
             <returns>The stage.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.PipelineStageDefinitionBuilder.VectorSearch``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},MongoDB.Driver.QueryVector,System.Int32,MongoDB.Driver.VectorSearchOptions{``0})">
             <summary>
             Creates a $vectorSearch stage.
@@ -23139,6 +23619,7 @@
             <param name="options">The options.</param>
             <returns>The stage.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.RenderedProjectionDefinition`1">
             <summary>
             A rendered projection.
@@ -23562,6 +24043,8 @@
             A combined projection.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.MetaSearchScoreDetails``1(MongoDB.Driver.ProjectionDefinition{``0},System.String)">
             <summary>
             Combines an existing projection with a search score details projection.
@@ -23573,6 +24056,7 @@
             A combined projection.
             </returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.MetaTextScore``1(MongoDB.Driver.ProjectionDefinition{``0},System.String)">
             <summary>
             Combines an existing projection with a text score projection.
@@ -23606,6 +24090,9 @@
             A combined projection.
             </returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.Slice``1(MongoDB.Driver.ProjectionDefinition{``0},MongoDB.Driver.FieldDefinition{``0},System.Int32,System.Nullable{System.Int32})">
+=======
         <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.Slice``1(MongoDB.Driver.ProjectionDefinition{``0},MongoDB.Driver.FieldDefinition{``0},System.Int32)">
             <summary>
             Combines an existing projection with an array slice projection.
@@ -23619,6 +24106,7 @@
             </returns>
         </member>
         <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.Slice``1(MongoDB.Driver.ProjectionDefinition{``0},MongoDB.Driver.FieldDefinition{``0},System.Int32,System.Int32)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Combines an existing projection with an array slice projection.
             </summary>
@@ -23631,6 +24119,9 @@
             A combined projection.
             </returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.Slice``1(MongoDB.Driver.ProjectionDefinition{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Int32,System.Nullable{System.Int32})">
+=======
         <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.Slice``1(MongoDB.Driver.ProjectionDefinition{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Int32)">
             <summary>
             Combines an existing projection with an array slice projection.
@@ -23644,6 +24135,7 @@
             </returns>
         </member>
         <member name="M:MongoDB.Driver.ProjectionDefinitionExtensions.Slice``1(MongoDB.Driver.ProjectionDefinition{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Int32,System.Int32)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Combines an existing projection with an array slice projection.
             </summary>
@@ -23795,6 +24287,8 @@
             A search score projection.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.MetaSearchScoreDetails(System.String)">
             <summary>
             Creates a search score details projection.
@@ -23804,6 +24298,7 @@
             A search score details projection.
             </returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.MetaTextScore(System.String)">
             <summary>
             Creates a text score projection.
@@ -23831,6 +24326,9 @@
             A search metadata projection.
             </returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.Slice(MongoDB.Driver.FieldDefinition{`0},System.Int32,System.Nullable{System.Int32})">
+=======
         <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.Slice(MongoDB.Driver.FieldDefinition{`0},System.Int32)">
             <summary>
             Creates an array slice projection.
@@ -23842,6 +24340,7 @@
             </returns>
         </member>
         <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.Slice(MongoDB.Driver.FieldDefinition{`0},System.Int32,System.Int32)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Creates an array slice projection.
             </summary>
@@ -23852,6 +24351,9 @@
             An array slice projection.
             </returns>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.Slice(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Int32,System.Nullable{System.Int32})">
+=======
         <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.Slice(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Int32)">
             <summary>
             Creates an array slice projection.
@@ -23863,6 +24365,7 @@
             </returns>
         </member>
         <member name="M:MongoDB.Driver.ProjectionDefinitionBuilder`1.Slice(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Int32,System.Int32)">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <summary>
             Creates an array slice projection.
             </summary>
@@ -23873,6 +24376,8 @@
             An array slice projection.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.QueryVector">
             <summary>
             Vector search query vector.
@@ -23955,6 +24460,7 @@
             The result of the conversion.
             </returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.RangeWindow">
             <summary>
             Represents a range window for a SetWindowFields window method.
@@ -24556,6 +25062,8 @@
         <member name="P:MongoDB.Driver.Search.GeoWithinGeometry`1.Geometry">
             <summary>Gets the GeoJson geometry.</summary>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.Search.IMongoSearchIndexManager">
             <summary>
             An interface representing methods used to create, delete and modify search indexes.
@@ -24677,6 +25185,7 @@
             <param name="cancellationToken">The cancellation token.</param>
             <returns>A Task.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.Search.SearchAutocompleteTokenOrder">
             <summary>
             The order in which to search for tokens in an autocomplete search definition.
@@ -24730,6 +25239,15 @@
             </summary>
             <typeparam name="TDocument">The type of the document.</typeparam>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.SearchDefinition`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+            <summary>
+            Renders the search definition to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
+            </summary>
+            <param name="documentSerializer">The document serializer.</param>
+            <param name="serializerRegistry">The serializer registry.</param>
+            <returns>A <see cref="T:MongoDB.Bson.BsonDocument"/>.</returns>
+=======
         <member name="M:MongoDB.Driver.Search.SearchDefinition`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the search definition to a <see cref="T:MongoDB.Bson.BsonDocument" />.
@@ -24738,6 +25256,7 @@
             <returns>
             A <see cref="T:MongoDB.Bson.BsonDocument" />.
             </returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="M:MongoDB.Driver.Search.SearchDefinition`1.op_Implicit(MongoDB.Bson.BsonDocument)~MongoDB.Driver.Search.SearchDefinition{`0}">
             <summary>
@@ -24774,7 +25293,11 @@
             Gets the BSON document.
             </summary>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.BsonDocumentSearchDefinition`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+=======
         <member name="M:MongoDB.Driver.Search.BsonDocumentSearchDefinition`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <inheritdoc />
         </member>
         <member name="T:MongoDB.Driver.Search.JsonSearchDefinition`1">
@@ -24785,7 +25308,11 @@
         </member>
         <member name="M:MongoDB.Driver.Search.JsonSearchDefinition`1.#ctor(System.String)">
             <summary>
+<<<<<<< HEAD
+            Initializes a new instance of the <see cref="T:MongoDB.Driver.Search.BsonDocumentSearchDefinition`1"/> class.
+=======
             Initializes a new instance of the <see cref="T:MongoDB.Driver.Search.JsonSearchDefinition`1"/> class.
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             </summary>
             <param name="json">The JSON string specifying the search definition.</param>
         </member>
@@ -24794,10 +25321,14 @@
             Gets the JSON string.
             </summary>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.JsonSearchDefinition`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+=======
         <member name="M:MongoDB.Driver.Search.JsonSearchDefinition`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <inheritdoc />
         </member>
         <member name="M:MongoDB.Driver.Search.OperatorSearchDefinition`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <inheritdoc />
         </member>
         <member name="T:MongoDB.Driver.Search.SearchDefinitionBuilder`1">
@@ -24838,6 +25369,8 @@
             <param name="score">The score modifier.</param>
             <returns>A compound search definition builder.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.Search.SearchDefinitionBuilder`1.EmbeddedDocument``1(MongoDB.Driver.FieldDefinition{`0,System.Collections.Generic.IEnumerable{``0}},MongoDB.Driver.Search.SearchDefinition{``0},MongoDB.Driver.Search.SearchScoreDefinition{`0})">
             <summary>
             Creates a search definition that performs a search for documents where
@@ -24866,6 +25399,7 @@
             An embeddedDocument search definition.
             </returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.Search.SearchDefinitionBuilder`1.Equals``1(MongoDB.Driver.FieldDefinition{`0,``0},``0,MongoDB.Driver.Search.SearchScoreDefinition{`0})">
             <summary>
             Creates a search definition that queries for documents where an indexed field is equal
@@ -25235,6 +25769,8 @@
             <param name="score">The score modifier.</param>
             <returns>A text search definition.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.Search.SearchDefinitionBuilder`1.Text(MongoDB.Driver.Search.SearchPathDefinition{`0},MongoDB.Driver.Search.SearchQueryDefinition,System.String,MongoDB.Driver.Search.SearchScoreDefinition{`0})">
             <summary>
             Creates a search definition that performs full-text search with synonyms using the analyzer specified
@@ -25246,6 +25782,7 @@
             <param name="score">The score modifier.</param>
             <returns>A text search definition.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.Search.SearchDefinitionBuilder`1.Text``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},MongoDB.Driver.Search.SearchQueryDefinition,MongoDB.Driver.Search.SearchFuzzyOptions,MongoDB.Driver.Search.SearchScoreDefinition{`0})">
             <summary>
             Creates a search definition that performs full-text search using the analyzer specified
@@ -25258,6 +25795,8 @@
             <param name="score">The score modifier.</param>
             <returns>A text search definition.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.Search.SearchDefinitionBuilder`1.Text``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},MongoDB.Driver.Search.SearchQueryDefinition,System.String,MongoDB.Driver.Search.SearchScoreDefinition{`0})">
             <summary>
             Creates a search definition that performs full-text search with synonyms using the analyzer specified
@@ -25270,6 +25809,7 @@
             <param name="score">The score modifier.</param>
             <returns>A text search definition.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="M:MongoDB.Driver.Search.SearchDefinitionBuilder`1.Wildcard(MongoDB.Driver.Search.SearchPathDefinition{`0},MongoDB.Driver.Search.SearchQueryDefinition,System.Boolean,MongoDB.Driver.Search.SearchScoreDefinition{`0})">
             <summary>
             Creates a search definition that uses special characters in the search string that can
@@ -25297,6 +25837,8 @@
             <param name="score">The score modifier.</param>
             <returns>A wildcard search definition.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.Search.SearchDefinitionRenderContext`1">
             <summary>
             Encapsulates classes needed for rendering Search definitions.
@@ -25326,6 +25868,7 @@
             Gets the serializer registry.
             </summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.Search.SearchFacet`1">
             <summary>
             Base class for search facets.
@@ -25343,12 +25886,22 @@
             Gets the name of the facet.
             </summary>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.SearchFacet`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+            <summary>
+            Renders the search facet to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
+            </summary>
+            <param name="documentSerializer">The document serializer.</param>
+            <param name="serializerRegistry">The serializer registry.</param>
+            <returns>A <see cref="T:MongoDB.Bson.BsonDocument"/>.</returns>
+=======
         <member name="M:MongoDB.Driver.Search.SearchFacet`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the search facet to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
             </summary>
             <param name="renderContext">The render context.</param>
             <returns>A <see cref="T:MongoDB.Bson.BsonDocument" />.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="T:MongoDB.Driver.Search.SearchFacetBuilder`1">
             <summary>
@@ -25627,12 +26180,22 @@
             Gets or sets the document field to search.
             </summary>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.SearchHighlightOptions`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+            <summary>
+            Renders the options to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
+            </summary>
+            <param name="documentSerializer">The document serializer.</param>
+            <param name="serializerRegistry">The serializer registry.</param>
+            <returns>A <see cref="T:MongoDB.Bson.BsonDocument"/>.</returns>
+=======
         <member name="M:MongoDB.Driver.Search.SearchHighlightOptions`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the options to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
             </summary>
             <param name="renderContext">The render context.</param>
             <returns>A <see cref="T:MongoDB.Bson.BsonDocument" />.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="T:MongoDB.Driver.Search.SearchMetaCountResult">
             <summary>
@@ -25716,6 +26279,8 @@
             Gets the facet result sets.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.Search.SearchOptions`1">
             <summary>
             Options for search.
@@ -25759,17 +26324,27 @@
             Gets or sets the options for tracking search terms.
             </summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.Search.SearchPathDefinition`1">
             <summary>
             Base class for search paths.
             </summary>
             <typeparam name="TDocument">The type of the document.</typeparam>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.SearchPathDefinition`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+            <summary>
+            Renders the path to a <see cref="T:MongoDB.Bson.BsonValue"/>.
+            </summary>
+            <param name="documentSerializer">The document serializer.</param>
+            <param name="serializerRegistry">The serializer registry.</param>
+=======
         <member name="M:MongoDB.Driver.Search.SearchPathDefinition`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the path to a <see cref="T:MongoDB.Bson.BsonValue"/>.
             </summary>
             <param name="renderContext">The render context.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <returns>A <see cref="T:MongoDB.Bson.BsonValue"/>.</returns>
         </member>
         <member name="M:MongoDB.Driver.Search.SearchPathDefinition`1.op_Implicit(MongoDB.Driver.FieldDefinition{`0})~MongoDB.Driver.Search.SearchPathDefinition{`0}">
@@ -25831,6 +26406,8 @@
             The result of the conversion.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="M:MongoDB.Driver.Search.SearchPathDefinition`1.RenderField(MongoDB.Driver.FieldDefinition{`0},MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the field.
@@ -25839,6 +26416,7 @@
             <param name="renderContext">The render context.</param>
             <returns>The rendered field.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.Search.SearchPathDefinitionBuilder`1">
             <summary>
             A builder for a search path.
@@ -26084,11 +26662,20 @@
             </summary>
             <typeparam name="TDocument">The type of the document.</typeparam>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.SearchScoreDefinition`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+            <summary>
+            Renders the score modifier to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
+            </summary>
+            <param name="documentSerializer">The document serializer.</param>
+            <param name="serializerRegistry">The serializer registry.</param>
+=======
         <member name="M:MongoDB.Driver.Search.SearchScoreDefinition`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the score modifier to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
             </summary>
             <param name="renderContext">The render context.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <returns>A <see cref="T:MongoDB.Bson.BsonDocument"/>.</returns>
         </member>
         <member name="T:MongoDB.Driver.Search.SearchScoreDefinitionBuilder`1">
@@ -26154,6 +26741,8 @@
             A function score modifier.
             </returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.Search.SearchScoreDetails">
             <summary>
             Represents the scoreDetails object for a document in the result.
@@ -26184,18 +26773,29 @@
             (if any).
             </summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.Search.SearchScoreFunction`1">
             <summary>
             Base class for search score functions.
             </summary>
             <typeparam name="TDocument">The type of the document.</typeparam>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.SearchScoreFunction`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+            <summary>
+            Renders the score function to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
+            </summary>
+            <param name="documentSerializer">The document serializer.</param>
+            <param name="serializerRegistry">The serializer registry.</param>
+            <returns>A <see cref="T:MongoDB.Bson.BsonDocument"/>.</returns>
+=======
         <member name="M:MongoDB.Driver.Search.SearchScoreFunction`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the score function to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
             </summary>
             <param name="renderContext">The render context.</param>
             <returns>A <see cref="T:MongoDB.Bson.BsonDocument" />.</returns>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         </member>
         <member name="T:MongoDB.Driver.Search.SearchScoreFunctionBuilder`1">
             <summary>
@@ -26338,11 +26938,20 @@
             </summary>
             <param name="clauseType">The clause type.</param>
         </member>
+<<<<<<< HEAD
+        <member name="M:MongoDB.Driver.Search.SearchSpanDefinition`1.Render(MongoDB.Bson.Serialization.IBsonSerializer{`0},MongoDB.Bson.Serialization.IBsonSerializerRegistry)">
+            <summary>
+            Renders the span clause to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
+            </summary>
+            <param name="documentSerializer">The document serializer.</param>
+            <param name="serializerRegistry">The serializer registry.</param>
+=======
         <member name="M:MongoDB.Driver.Search.SearchSpanDefinition`1.Render(MongoDB.Driver.Search.SearchDefinitionRenderContext{`0})">
             <summary>
             Renders the span clause to a <see cref="T:MongoDB.Bson.BsonDocument"/>.
             </summary>
             <param name="renderContext">The render context.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
             <returns>A <see cref="T:MongoDB.Bson.BsonDocument"/>.</returns>
         </member>
         <member name="T:MongoDB.Driver.Search.SearchSpanDefinitionBuilder`1">
@@ -26407,6 +27016,8 @@
             <param name="query">The string or string to search for.</param>
             <returns>A term span clause.</returns>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.Search.SearchTrackingOptions">
             <summary>
             Options for tracking the search query.
@@ -26417,6 +27028,7 @@
             Text or term associated with the query to track. You can specify only one term per query.
             </summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.ServerSession">
             <summary>
             A server session.
@@ -26438,6 +27050,8 @@
         <member name="M:MongoDB.Driver.ServerSession.WasUsed">
             <inheritdoc />
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.SetFieldDefinition`1">
             <summary>
             A definition of a single field to be set.
@@ -26572,6 +27186,7 @@
             <param name="value">The value.</param>
             <returns>The ListSetFieldDefinitions instance with a SetFieldDefinition added.</returns>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.Setting`1">
             <summary>
             Represents a setting that may or may not have been set.
@@ -28375,6 +28990,8 @@
         <member name="P:MongoDB.Driver.UpdateResult.Unacknowledged.UpsertedId">
             <inheritdoc/>
         </member>
+<<<<<<< HEAD
+=======
         <member name="T:MongoDB.Driver.VectorSearchOptions`1">
             <summary>
             Vector search options.
@@ -28396,6 +29013,7 @@
             Gets or sets the number of candidates.
             </summary>
         </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
         <member name="T:MongoDB.Driver.WriteConcernError">
             <summary>
             Represents the details of a write concern error.

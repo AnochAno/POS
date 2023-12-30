@@ -17,7 +17,11 @@
       <summary>Specifies read-only access.</summary>
     </member>
     <member name="T:System.Security.AccessControl.AccessControlModification">
+<<<<<<< HEAD
+      <summary>Specifies the type of access control modification to perform. This enumeration is used by methods of the <see cref="T:System.Security.AccessControl.ObjectSecurity" /> class and its descendents.</summary>
+=======
       <summary>Specifies the type of access control modification to perform. This enumeration is used by methods of the <see cref="T:System.Security.AccessControl.ObjectSecurity" /> class and its descendants.</summary>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
     </member>
     <member name="F:System.Security.AccessControl.AccessControlModification.Add">
       <summary>Add the specified authorization rule to the access control list (ACL).</summary>
@@ -1662,7 +1666,11 @@
     </member>
     <member name="M:System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRule(System.Security.AccessControl.AuditRule{`0})">
       <summary>Removes audit rules that contain the same security identifier and access mask as the specified audit rule from the System Access Control List (SACL) associated with this ObjectSecurity`1 object.</summary>
+<<<<<<< HEAD
+      <param name="rule">The audit rule to remove</param>
+=======
       <param name="rule">The audit rule to remove.</param>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
       <returns>
         <see langword="true" /> if the object was removed; otherwise, <see langword="false" />.</returns>
     </member>
@@ -2043,6 +2051,8 @@
       <param name="sid">The <see cref="T:System.Security.Principal.SecurityIdentifier" /> for which to set an audit rule.</param>
       <param name="rule">The <see cref="T:System.Security.AccessControl.ObjectAuditRule" /> for which to set an audit rule.</param>
     </member>
+<<<<<<< HEAD
+=======
     <member name="T:System.Security.Policy.Evidence">
       <summary>Defines the set of information that constitutes input to security policy decisions. This class cannot be inherited.</summary>
     </member>
@@ -2181,5 +2191,6 @@
       <summary>Creates a new object that is a complete copy of the current instance.</summary>
       <returns>A duplicate copy of this evidence object.</returns>
     </member>
+>>>>>>> f5f484b9bc054d4df82894b3a1688eb6b68f61cd
   </members>
 </doc>
