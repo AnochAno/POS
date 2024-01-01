@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Food_Order_App.Admin_Borad;
 
 namespace Food_Order_App
 {
@@ -17,7 +18,7 @@ namespace Food_Order_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new userlogin());
+            Application.Run(new AdminRegistration());
         }
     }
 }
