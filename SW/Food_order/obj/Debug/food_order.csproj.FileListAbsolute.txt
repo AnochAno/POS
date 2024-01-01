@@ -1,0 +1,11 @@
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\bin\Debug\food_order.exe.config
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\bin\Debug\food_order.exe
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\bin\Debug\food_order.pdb
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.csproj.AssemblyReference.cache
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.Form1.resources
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.Properties.Resources.resources
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.csproj.GenerateResource.cache
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.csproj.CoreCompileInputs.cache
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.exe
+C:\Users\Anojan\Desktop\Git\POS\SW\food_order\obj\Debug\food_order.pdb

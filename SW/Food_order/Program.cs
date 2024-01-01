@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Food_order
+namespace food_order
 {
     internal static class Program
     {

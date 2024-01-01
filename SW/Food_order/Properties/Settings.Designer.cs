@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Food_order.Properties
+namespace food_order.Properties
 {
 
 
