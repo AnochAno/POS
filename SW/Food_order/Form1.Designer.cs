@@ -30,21 +30,35 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.jSpinner3 = new System.Windows.Forms.NumericUpDown();
+            this.jCheckBox3 = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.cubal = new System.Windows.Forms.Label();
+            this.tot = new System.Windows.Forms.Label();
+            this.txtaccbal = new System.Windows.Forms.Label();
+            this.txtname = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.jSpinner4 = new System.Windows.Forms.NumericUpDown();
+            this.jCheckBox4 = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -53,8 +67,8 @@
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.jSpinner5 = new System.Windows.Forms.NumericUpDown();
+            this.jCheckBox5 = new System.Windows.Forms.CheckBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -63,36 +77,28 @@
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.label19 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.jSpinner6 = new System.Windows.Forms.NumericUpDown();
+            this.jCheckBox6 = new System.Windows.Forms.CheckBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner3)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner4)).BeginInit();
             this.flowLayoutPanel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner5)).BeginInit();
             this.flowLayoutPanel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner6)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -105,11 +111,19 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(338, 317);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(322, 119);
+            this.label1.TabIndex = 0;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel2.Controls.Add(this.numericUpDown1);
-            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Controls.Add(this.jSpinner3);
+            this.panel2.Controls.Add(this.jCheckBox3);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
@@ -120,44 +134,22 @@
             this.panel2.Size = new System.Drawing.Size(335, 195);
             this.panel2.TabIndex = 1;
             // 
-            // label2
+            // jSpinner3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(133, 10);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Lunch Food";
+            this.jSpinner3.Location = new System.Drawing.Point(168, 102);
+            this.jSpinner3.Name = "jSpinner3";
+            this.jSpinner3.Size = new System.Drawing.Size(118, 22);
+            this.jSpinner3.TabIndex = 6;
+            this.jSpinner3.ValueChanged += new System.EventHandler(this.jSpinner3_ValueChanged);
             // 
-            // label3
+            // jCheckBox3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 50);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 29);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Price: ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(27, 94);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 29);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Quantity:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 146);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 29);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Purchase:";
+            this.jCheckBox3.Location = new System.Drawing.Point(168, 146);
+            this.jCheckBox3.Name = "jCheckBox3";
+            this.jCheckBox3.Size = new System.Drawing.Size(104, 35);
+            this.jCheckBox3.TabIndex = 5;
+            this.jCheckBox3.UseVisualStyleBackColor = true;
+            this.jCheckBox3.CheckedChanged += new System.EventHandler(this.jCheckBox3_CheckedChanged);
             // 
             // label6
             // 
@@ -169,21 +161,44 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "200/=";
             // 
-            // checkBox1
+            // label5
             // 
-            this.checkBox1.Location = new System.Drawing.Point(168, 146);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(104, 35);
-            this.checkBox1.TabIndex = 5;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(27, 146);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(129, 29);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Purchase:";
             // 
-            // label1
+            // label4
             // 
-            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 119);
-            this.label1.TabIndex = 0;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(27, 94);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(115, 29);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Quantity:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(27, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(88, 29);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Price: ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(133, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 16);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Lunch Food";
             // 
             // panel1
             // 
@@ -196,15 +211,151 @@
             this.panel1.Controls.Add(this.flowLayoutPanel4);
             this.panel1.Location = new System.Drawing.Point(1, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1235, 823);
+            this.panel1.Size = new System.Drawing.Size(1352, 873);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // numericUpDown1
+            // panel7
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(168, 102);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(118, 22);
-            this.numericUpDown1.TabIndex = 6;
+            this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel7.Controls.Add(this.button6);
+            this.panel7.Controls.Add(this.button4);
+            this.panel7.Controls.Add(this.button2);
+            this.panel7.Location = new System.Drawing.Point(22, 722);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(705, 100);
+            this.panel7.TabIndex = 6;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(473, 23);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(197, 58);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "TOTAL";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(242, 23);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(197, 58);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "RESET";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(16, 23);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(197, 58);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "RECEIPT";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel6.Controls.Add(this.cubal);
+            this.panel6.Controls.Add(this.tot);
+            this.panel6.Controls.Add(this.txtaccbal);
+            this.panel6.Controls.Add(this.txtname);
+            this.panel6.Controls.Add(this.label28);
+            this.panel6.Controls.Add(this.label27);
+            this.panel6.Controls.Add(this.label26);
+            this.panel6.Controls.Add(this.label25);
+            this.panel6.Controls.Add(this.textBox1);
+            this.panel6.Location = new System.Drawing.Point(762, 23);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(539, 799);
+            this.panel6.TabIndex = 5;
+            // 
+            // cubal
+            // 
+            this.cubal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cubal.Location = new System.Drawing.Point(223, 759);
+            this.cubal.Name = "cubal";
+            this.cubal.Size = new System.Drawing.Size(254, 33);
+            this.cubal.TabIndex = 8;
+            this.cubal.Text = "---------------";
+            // 
+            // tot
+            // 
+            this.tot.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tot.Location = new System.Drawing.Point(223, 712);
+            this.tot.Name = "tot";
+            this.tot.Size = new System.Drawing.Size(254, 33);
+            this.tot.TabIndex = 7;
+            this.tot.Text = "---------------";
+            // 
+            // txtaccbal
+            // 
+            this.txtaccbal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtaccbal.Location = new System.Drawing.Point(223, 660);
+            this.txtaccbal.Name = "txtaccbal";
+            this.txtaccbal.Size = new System.Drawing.Size(254, 33);
+            this.txtaccbal.TabIndex = 6;
+            this.txtaccbal.Text = "---------------";
+            // 
+            // txtname
+            // 
+            this.txtname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtname.Location = new System.Drawing.Point(223, 612);
+            this.txtname.Name = "txtname";
+            this.txtname.Size = new System.Drawing.Size(254, 33);
+            this.txtname.TabIndex = 5;
+            this.txtname.Text = "---------------";
+            // 
+            // label28
+            // 
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(22, 759);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(195, 33);
+            this.label28.TabIndex = 4;
+            this.label28.Text = "Current Blance: ";
+            // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(22, 712);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(195, 33);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Total : ";
+            this.label27.Click += new System.EventHandler(this.label27_Click);
+            // 
+            // label26
+            // 
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(22, 660);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(195, 33);
+            this.label26.TabIndex = 2;
+            this.label26.Text = "Account Blance: ";
+            // 
+            // label25
+            // 
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(22, 612);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(195, 33);
+            this.label25.TabIndex = 1;
+            this.label25.Text = "Name: ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox1.Location = new System.Drawing.Point(48, 0);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(372, 595);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // flowLayoutPanel2
             // 
@@ -227,8 +378,8 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel3.Controls.Add(this.numericUpDown2);
-            this.panel3.Controls.Add(this.checkBox2);
+            this.panel3.Controls.Add(this.jSpinner4);
+            this.panel3.Controls.Add(this.jCheckBox4);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label10);
@@ -239,20 +390,21 @@
             this.panel3.Size = new System.Drawing.Size(335, 195);
             this.panel3.TabIndex = 1;
             // 
-            // numericUpDown2
+            // jSpinner4
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(168, 102);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(118, 22);
-            this.numericUpDown2.TabIndex = 6;
+            this.jSpinner4.Location = new System.Drawing.Point(168, 102);
+            this.jSpinner4.Name = "jSpinner4";
+            this.jSpinner4.Size = new System.Drawing.Size(118, 22);
+            this.jSpinner4.TabIndex = 6;
             // 
-            // checkBox2
+            // jCheckBox4
             // 
-            this.checkBox2.Location = new System.Drawing.Point(168, 146);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(104, 35);
-            this.checkBox2.TabIndex = 5;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.jCheckBox4.Location = new System.Drawing.Point(168, 146);
+            this.jCheckBox4.Name = "jCheckBox4";
+            this.jCheckBox4.Size = new System.Drawing.Size(104, 35);
+            this.jCheckBox4.TabIndex = 5;
+            this.jCheckBox4.UseVisualStyleBackColor = true;
+            this.jCheckBox4.CheckedChanged += new System.EventHandler(this.jCheckBox4_CheckedChanged);
             // 
             // label8
             // 
@@ -299,9 +451,9 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(133, 10);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(77, 16);
+            this.label12.Size = new System.Drawing.Size(69, 16);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Lunch Food";
+            this.label12.Text = "Fride Rice";
             // 
             // flowLayoutPanel3
             // 
@@ -324,8 +476,8 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel4.Controls.Add(this.numericUpDown3);
-            this.panel4.Controls.Add(this.checkBox3);
+            this.panel4.Controls.Add(this.jSpinner5);
+            this.panel4.Controls.Add(this.jCheckBox5);
             this.panel4.Controls.Add(this.label14);
             this.panel4.Controls.Add(this.label15);
             this.panel4.Controls.Add(this.label16);
@@ -336,20 +488,22 @@
             this.panel4.Size = new System.Drawing.Size(335, 195);
             this.panel4.TabIndex = 1;
             // 
-            // numericUpDown3
+            // jSpinner5
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(168, 102);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(118, 22);
-            this.numericUpDown3.TabIndex = 6;
+            this.jSpinner5.Location = new System.Drawing.Point(168, 102);
+            this.jSpinner5.Name = "jSpinner5";
+            this.jSpinner5.Size = new System.Drawing.Size(118, 22);
+            this.jSpinner5.TabIndex = 6;
+            this.jSpinner5.ValueChanged += new System.EventHandler(this.numericUpDown3_ValueChanged);
             // 
-            // checkBox3
+            // jCheckBox5
             // 
-            this.checkBox3.Location = new System.Drawing.Point(168, 146);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(104, 35);
-            this.checkBox3.TabIndex = 5;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.jCheckBox5.Location = new System.Drawing.Point(168, 146);
+            this.jCheckBox5.Name = "jCheckBox5";
+            this.jCheckBox5.Size = new System.Drawing.Size(104, 35);
+            this.jCheckBox5.TabIndex = 5;
+            this.jCheckBox5.UseVisualStyleBackColor = true;
+            this.jCheckBox5.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // label14
             // 
@@ -396,9 +550,10 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(133, 10);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(77, 16);
+            this.label18.Size = new System.Drawing.Size(67, 16);
             this.label18.TabIndex = 0;
-            this.label18.Text = "Lunch Food";
+            this.label18.Text = "Veg- Rice";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // flowLayoutPanel4
             // 
@@ -421,8 +576,8 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel5.Controls.Add(this.numericUpDown4);
-            this.panel5.Controls.Add(this.checkBox4);
+            this.panel5.Controls.Add(this.jSpinner6);
+            this.panel5.Controls.Add(this.jCheckBox6);
             this.panel5.Controls.Add(this.label20);
             this.panel5.Controls.Add(this.label21);
             this.panel5.Controls.Add(this.label22);
@@ -433,20 +588,21 @@
             this.panel5.Size = new System.Drawing.Size(335, 195);
             this.panel5.TabIndex = 1;
             // 
-            // numericUpDown4
+            // jSpinner6
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(168, 102);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(118, 22);
-            this.numericUpDown4.TabIndex = 6;
+            this.jSpinner6.Location = new System.Drawing.Point(168, 102);
+            this.jSpinner6.Name = "jSpinner6";
+            this.jSpinner6.Size = new System.Drawing.Size(118, 22);
+            this.jSpinner6.TabIndex = 6;
             // 
-            // checkBox4
+            // jCheckBox6
             // 
-            this.checkBox4.Location = new System.Drawing.Point(168, 146);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(104, 35);
-            this.checkBox4.TabIndex = 5;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.jCheckBox6.Location = new System.Drawing.Point(168, 146);
+            this.jCheckBox6.Name = "jCheckBox6";
+            this.jCheckBox6.Size = new System.Drawing.Size(104, 35);
+            this.jCheckBox6.TabIndex = 5;
+            this.jCheckBox6.UseVisualStyleBackColor = true;
+            this.jCheckBox6.CheckedChanged += new System.EventHandler(this.jCheckBox6_CheckedChanged);
             // 
             // label20
             // 
@@ -493,99 +649,15 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(133, 10);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(77, 16);
+            this.label24.Size = new System.Drawing.Size(59, 16);
             this.label24.TabIndex = 0;
-            this.label24.Text = "Lunch Food";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel6.Controls.Add(this.textBox1);
-            this.panel6.Location = new System.Drawing.Point(779, 23);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(435, 665);
-            this.panel6.TabIndex = 5;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox1.Location = new System.Drawing.Point(3, 24);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(429, 595);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel7.Controls.Add(this.button6);
-            this.panel7.Controls.Add(this.button5);
-            this.panel7.Controls.Add(this.button4);
-            this.panel7.Controls.Add(this.button3);
-            this.panel7.Controls.Add(this.button2);
-            this.panel7.Location = new System.Drawing.Point(22, 712);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1192, 100);
-            this.panel7.TabIndex = 6;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(16, 23);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 58);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "RECEIPT";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(259, 23);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(197, 58);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "LOG OUT";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(498, 21);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(197, 58);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "RESET";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(742, 21);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(197, 58);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "COUNTINUE";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(976, 23);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(197, 58);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "TOTAL";
-            this.button6.UseVisualStyleBackColor = true;
+            this.label24.Text = "Noodles";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1238, 827);
+            this.ClientSize = new System.Drawing.Size(1353, 878);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -595,23 +667,23 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner3)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner4)).EndInit();
             this.flowLayoutPanel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner5)).EndInit();
             this.flowLayoutPanel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.jSpinner6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -621,8 +693,8 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.NumericUpDown jSpinner3;
+        private System.Windows.Forms.CheckBox jCheckBox3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -632,8 +704,8 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.NumericUpDown jSpinner4;
+        private System.Windows.Forms.CheckBox jCheckBox4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -642,8 +714,8 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.NumericUpDown jSpinner5;
+        private System.Windows.Forms.CheckBox jCheckBox5;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
@@ -652,8 +724,8 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.NumericUpDown jSpinner6;
+        private System.Windows.Forms.CheckBox jCheckBox6;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -663,10 +735,16 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label cubal;
+        private System.Windows.Forms.Label tot;
+        private System.Windows.Forms.Label txtaccbal;
+        private System.Windows.Forms.Label txtname;
     }
 }
 
