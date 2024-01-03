@@ -52,3 +52,6 @@ D:\Projects\food-order-app\POS\SW\Food_Order_App\bin\Debug\System.Security.Princ
 D:\Projects\food-order-app\POS\SW\Food_Order_App\bin\Debug\System.Text.Encoding.CodePages.xml
 D:\Projects\food-order-app\POS\SW\Food_Order_App\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Projects\food-order-app\POS\SW\Food_Order_App\obj\Debug\Food_Order_App.csproj.CopyComplete
+D:\Projects\food-order-app\POS\SW\Food_Order_App\obj\Debug\Food_Order_App.Admin_Borad.ProductRegistration.resources
+D:\Projects\food-order-app\POS\SW\Food_Order_App\obj\Debug\Food_Order_App.Admin_Borad.DashBorad.resources
+D:\Projects\food-order-app\POS\SW\Food_Order_App\obj\Debug\Food_Order_App.Admin_Borad.AdminLogin.resources

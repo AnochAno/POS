@@ -18,7 +18,7 @@ namespace Food_Order_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminRegistration());
+            Application.Run(new userlogin());
         }
     }
 }

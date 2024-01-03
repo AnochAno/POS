@@ -153,11 +153,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin Borad\Admin.cs" />
+    <Compile Include="Admin Borad\AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Borad\AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin Borad\AdminRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin Borad\AdminRegistration.Designer.cs">
       <DependentUpon>AdminRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Borad\DashBorad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Borad\DashBorad.Designer.cs">
+      <DependentUpon>DashBorad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Borad\Product.cs" />
+    <Compile Include="Admin Borad\ProductRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Borad\ProductRegistration.Designer.cs">
+      <DependentUpon>ProductRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -179,8 +198,17 @@
     <Compile Include="UI\userorderpage.Designer.cs">
       <DependentUpon>userorderpage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin Borad\AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin Borad\AdminRegistration.resx">
       <DependentUpon>AdminRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Borad\DashBorad.resx">
+      <DependentUpon>DashBorad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Borad\ProductRegistration.resx">
+      <DependentUpon>ProductRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -190,6 +218,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="libmongocrypt.dylib" />
     <None Include="libmongocrypt.so" />
@@ -212,6 +241,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mongocrypt.dll" />
+    <None Include="Resources\icons8-back-48.png" />
+    <None Include="Resources\icons8-junk-food-100.png" />
+    <None Include="Resources\icons8-users-100.png" />
+    <None Include="Resources\icons8-menu-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MongoDB.Libmongocrypt.1.8.0\build\MongoDB.Libmongocrypt.targets" Condition="Exists('packages\MongoDB.Libmongocrypt.1.8.0\build\MongoDB.Libmongocrypt.targets')" />

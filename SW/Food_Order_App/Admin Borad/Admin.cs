@@ -28,7 +28,7 @@ namespace Food_Order_App.Admin_Borad
         [BsonElement("username")]
         public string Username { get; set; }
 
-        [BsonElement("passsword")]
+        [BsonElement("password")]
         public string Password { get; set; }
 
        

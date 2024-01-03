@@ -21,6 +21,8 @@ namespace Food_Order_App.Admin_Borad
         {
             InitializeComponent();
             ReadAllDocuments();
+
+            grdadmin.CellClick += grdadmin_CellClick;
         }
 
         public void ReadAllDocuments()
@@ -68,24 +70,59 @@ namespace Food_Order_App.Admin_Borad
             ReadAllDocuments();
         }
 
-        private void btnsave_Click(object sender, EventArgs e)
+        private async void btnsave_Click(object sender, EventArgs e)
         {
             Admin admin = new Admin(txtname.Text, txtadd.Text, txtemail.Text, txtcon.Text, txtuser.Text, txtpass.Text);
-            collection.InsertOneAsync(admin);
+            await collection.InsertOneAsync(admin);
             ReadAllDocuments();
         }
 
-        private void btnupdate_Click(object sender, EventArgs e)
+        private async void btnupdate_Click(object sender, EventArgs e)
         {
             var updateDef = Builders<Admin>.Update.Set("name", txtname.Text).Set("address", txtadd.Text).Set("email", txtemail.Text).Set("contact", txtcon.Text).Set("username", txtuser.Text).Set("password", txtpass.Text);
-            collection.UpdateOneAsync(admin => admin.Id == ObjectId.Parse(txtid.Text), updateDef);
+            await collection.UpdateOneAsync(admin => admin.Id == ObjectId.Parse(txtid.Text), updateDef);
             ReadAllDocuments();
         }
 
-        private void btndel_Click(object sender, EventArgs e)
+        private async void btndel_Click(object sender, EventArgs e)
         {
-            collection.DeleteOneAsync(admin => admin.Id == ObjectId.Parse(txtid.Text));
+            await collection.DeleteOneAsync(admin => admin.Id == ObjectId.Parse(txtid.Text));
             ReadAllDocuments();
+        }
+
+        private void btnreset_Click(object sender, EventArgs e)
+        {
+            txtid.Text = string.Empty;
+            txtname.Text = string.Empty;
+            txtadd.Text = string.Empty;
+            txtemail.Text = string.Empty;
+            txtcon.Text = string.Empty;
+            txtuser.Text = string.Empty;
+            txtpass.Text = string.Empty;
+
+            txtname.Focus();
+
+        }
+
+        private void grdadmin_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.RowIndex < grdadmin.Rows.Count)
+            {
+                // Get the selected cell values
+                txtid.Text = grdadmin.Rows[e.RowIndex].Cells["ID"].Value?.ToString() ?? string.Empty;
+                txtname.Text = grdadmin.Rows[e.RowIndex].Cells["Name"].Value?.ToString() ?? string.Empty;
+                txtadd.Text = grdadmin.Rows[e.RowIndex].Cells["Address"].Value?.ToString() ?? string.Empty;
+                txtemail.Text = grdadmin.Rows[e.RowIndex].Cells["Email"].Value?.ToString() ?? string.Empty;
+                txtcon.Text = grdadmin.Rows[e.RowIndex].Cells["Contact"].Value?.ToString() ?? string.Empty;
+                txtuser.Text = grdadmin.Rows[e.RowIndex].Cells["Username"].Value?.ToString() ?? string.Empty;
+                txtpass.Text = grdadmin.Rows[e.RowIndex].Cells["Password"].Value?.ToString() ?? string.Empty;
+            }
+        }
+
+        private void btnback_Click(object sender, EventArgs e)
+        {
+            new DashBorad().Show();
+            this.Hide();
         }
     }
 }
