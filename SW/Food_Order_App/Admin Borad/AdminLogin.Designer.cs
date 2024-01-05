@@ -46,6 +46,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(728, 134);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -57,6 +58,7 @@
             this.label1.Size = new System.Drawing.Size(194, 41);
             this.label1.TabIndex = 1;
             this.label1.Text = "Admin Login";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtpass
             // 
@@ -65,6 +67,7 @@
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(366, 34);
             this.txtpass.TabIndex = 17;
+            this.txtpass.TextChanged += new System.EventHandler(this.txtpass_TextChanged);
             // 
             // txtuser
             // 
@@ -73,6 +76,7 @@
             this.txtuser.Name = "txtuser";
             this.txtuser.Size = new System.Drawing.Size(366, 34);
             this.txtuser.TabIndex = 16;
+            this.txtuser.TextChanged += new System.EventHandler(this.txtuser_TextChanged);
             // 
             // label8
             // 
@@ -83,6 +87,7 @@
             this.label8.Size = new System.Drawing.Size(97, 28);
             this.label8.TabIndex = 15;
             this.label8.Text = "Password";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -93,6 +98,7 @@
             this.label7.Size = new System.Drawing.Size(104, 28);
             this.label7.TabIndex = 14;
             this.label7.Text = "Username";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // btnlogin
             // 
@@ -116,6 +122,8 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "AdminLogin";
             this.Text = "AdminLogin";
             this.panel1.ResumeLayout(false);
