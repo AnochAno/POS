@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Food_Order_App.Admin_Borad;
 
 namespace Food_Order_App.UI
 {
@@ -176,6 +177,18 @@ namespace Food_Order_App.UI
             txtbal.Text = grduser.Rows[e.RowIndex].Cells[3].Value.ToString();
             txtemail.Text = grduser.Rows[e.RowIndex].Cells[4].Value.ToString();
             txtpho.Text = grduser.Rows[e.RowIndex].Cells[1].Value.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DashBorad dashBorad = new DashBorad();
+            dashBorad.Show();
+            this.Hide();
         }
     }
 }

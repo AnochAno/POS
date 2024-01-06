@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using Food_Order_App.UI;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Food_Order_App.Admin_Borad
 {
@@ -45,6 +47,21 @@ namespace Food_Order_App.Admin_Borad
             this.Hide();
         }
 
-        
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnuser_Click(object sender, EventArgs e)
+        {
+            usereg re = new usereg();
+            re.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

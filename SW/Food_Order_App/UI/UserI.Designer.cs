@@ -73,7 +73,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.cubal = new System.Windows.Forms.Label();
             this.tot = new System.Windows.Forms.Label();
             this.txtaccbal = new System.Windows.Forms.Label();
@@ -521,6 +520,7 @@
             this.button4.TabIndex = 2;
             this.button4.Text = "RESET";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -535,7 +535,6 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel6.Controls.Add(this.button1);
             this.panel6.Controls.Add(this.cubal);
             this.panel6.Controls.Add(this.tot);
             this.panel6.Controls.Add(this.txtaccbal);
@@ -549,17 +548,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(539, 799);
             this.panel6.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(450, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(63, 58);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Lo";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // cubal
             // 
@@ -748,7 +736,6 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label cubal;
         public System.Windows.Forms.Label tot;
         public System.Windows.Forms.Label txtaccbal;

@@ -172,6 +172,22 @@ namespace Food_Order_App.UI
                 MessageBox.Show($"Error while updating: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
+        public void clear()
+        {
+            jCheckBox3.Checked = false;
+            jCheckBox4.Checked = false;
+            jCheckBox5.Checked = false;
+            jCheckBox6.Checked = false;
+
+            jSpinner3.Value = 0;
+            jSpinner4.Value = 0;
+            jSpinner5.Value = 0;
+            jSpinner6.Value = 0;
+
+            textBox1.Clear();
+        }
+        
         private void button6_Click(object sender, EventArgs e)
         {
             double bac = double.Parse(txtaccbal.Text);
@@ -207,6 +223,11 @@ namespace Food_Order_App.UI
             {
                 MessageBox.Show("Your balance is less than 500/=, so can't take any Foods");
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            clear();
         }
     }
 }

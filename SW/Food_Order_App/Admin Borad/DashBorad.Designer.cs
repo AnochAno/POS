@@ -90,7 +90,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(319, 207);
             this.panel6.TabIndex = 4;
-            
             // 
             // lblproduct
             // 
@@ -256,6 +255,7 @@
             this.button10.TabIndex = 9;
             this.button10.Text = "About";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -296,6 +296,7 @@
             this.btnuser.TabIndex = 6;
             this.btnuser.Text = "Users";
             this.btnuser.UseVisualStyleBackColor = true;
+            this.btnuser.Click += new System.EventHandler(this.btnuser_Click);
             // 
             // btnadmin
             // 
@@ -336,6 +337,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Chart";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btndash
             // 
@@ -391,6 +393,8 @@
             this.ClientSize = new System.Drawing.Size(1417, 761);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "DashBorad";
             this.Text = "DashBorad";
             this.panel1.ResumeLayout(false);
