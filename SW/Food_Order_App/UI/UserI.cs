@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -143,10 +144,69 @@ namespace Food_Order_App.UI
         {
             Environment.Exit(0 );
         }
+        public void UpBal()
+        {
+            try
+            {
+                // MongoDB connection string
+                string connectionString = "mongodb://localhost:27017";
+                var client = new MongoClient(connectionString);
 
+                // MongoDB database name
+                string dbName = "food";
+                var database = client.GetDatabase(dbName);
+
+                // MongoDB collection name
+                string collectionName = "user";
+                var collection = database.GetCollection<BsonDocument>(collectionName);
+
+                // Updating balance in MongoDB
+                var filter = Builders<BsonDocument>.Filter.Eq("name", txtname.Text);
+                var update = Builders<BsonDocument>.Update.Set("blance", cubal.Text);
+                collection.UpdateOne(filter, update);
+
+                MessageBox.Show($"name: {txtname.Text}, Your Balance has been UPDATED!", "UPDATED!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error while updating: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         private void button6_Click(object sender, EventArgs e)
         {
+            double bac = double.Parse(txtaccbal.Text);
 
+            if (bac >= 500)
+            {
+                if (total == 0.0)
+                {
+                    MessageBox.Show("You haven't selected any item");
+                }
+                else
+                {
+                    string updatedLabel = $"{textBox1.Text}\n" +
+                        " -----------------------------------------------------------------------\n" +
+                        $"Total: \t\t{total}\n" +
+                        "                             Thank You                                           ";
+
+                    textBox1.Text = updatedLabel;
+
+                    string totalText = total.ToString();
+                    tot.Text = totalText;
+
+                    double previousBalance = double.Parse(txtaccbal.Text);
+                    double updatedBalance = previousBalance - total;
+
+                    string updatedBalanceText = updatedBalance.ToString();
+                    cubal.Text = updatedBalanceText;
+
+                    UpBal();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Your balance is less than 500/=, so can't take any Foods");
+            }
         }
     }
 }
